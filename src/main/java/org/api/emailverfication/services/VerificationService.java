@@ -7,6 +7,8 @@ import org.api.emailverfication.utils.OTPUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.UUID;
+
 @Service
 public class VerificationService {
 
@@ -28,10 +30,11 @@ public class VerificationService {
    public void sendVerificationEmail(String email) {
         String OTP = OTPUtils.generateOTP();
         OTP otp = new OTP();
+        otp.setId(UUID.randomUUID());
         otp.setOtp(OTP);
         otp.setEmail(email);
-        otpRepo.save(otp);
+        OTP newOTP = otpRepo.save(otp);
         String subject = "Verification Email";
-        emailService.sendEmail(email, subject, OTP );
+        emailService.sendEmail(email, subject, newOTP.getOtp());
    }
 }

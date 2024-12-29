@@ -20,3 +20,4 @@ public class User extends BaseModel {
     @Enumerated(EnumType.STRING)
     private VERIFIED isVerified;
 }
+//lgbzikyrwzwhlumz

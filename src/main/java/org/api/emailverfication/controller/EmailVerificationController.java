@@ -14,8 +14,8 @@ public class EmailVerificationController {
     @Autowired
     private VerificationService verificationService;
 
-    @PostMapping("/send-verification")
-    public ResponseEntity<String> sendVerificationEmail(@RequestParam String email) {
+    @PostMapping("/send-verification/{email}")
+    public ResponseEntity<String> sendVerificationEmail(@PathVariable("email") String email) {
         verificationService.sendVerificationEmail(email);
         return ResponseEntity.status(200).body("Email sent");
     }
