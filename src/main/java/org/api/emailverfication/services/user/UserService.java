@@ -8,9 +8,10 @@ import org.api.emailverfication.repo.UserRepo;
 import org.api.emailverfication.services.EmailService;
 import org.api.emailverfication.services.IVerificationService;
 import org.api.emailverfication.utils.UserUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.UUID;
 
 @Service("userService")
@@ -25,6 +26,11 @@ public class UserService implements IUserService {
     @Autowired
     private UserUtils userUtils;
 
+    private static final Logger log = LoggerFactory.getLogger(UserService.class);
+
+
+
+    // Implement the methods Here...........
 
     @Override
     public Boolean signUp(UserRequestDTO dto) {
@@ -40,7 +46,30 @@ public class UserService implements IUserService {
         return false;
     }
 
+    @Override
+    public User getUserByFirstName(String firstName){
+        return userRepo.findByFirstName(firstName);
+    }
 
+
+    @Override
+    public User getUserByEmail(String email){
+        return userRepo.findByEmail(email);
+    }
+
+
+
+    @Override
+    public Boolean validatePassword(UUID id, String password){
+        String pass = userRepo.findByIdByPassword(id);
+        if(pass == null){
+            return false;
+        }
+        if(!pass.equals(password)){
+            return false;
+        }
+        return true;
+    }
 
 
 }

@@ -14,4 +14,12 @@ public interface UserRepo extends JpaRepository<User, UUID> {
 
     @Query("SELECT u from users u where u.email = :email")
     User findByUser(String email);
+
+    User findByFirstName(String firstName);
+    User findByLastName(String lastName);
+    User findByEmail(String email);
+
+    @Query("SELECT u.password from users u where u.id = :id")
+    String findByIdByPassword(UUID id);
+
 }
