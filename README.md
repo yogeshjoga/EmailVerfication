@@ -1,4 +1,10 @@
-# where to start?
+
+
+## Swagger link
+http://localhost:8080/swagger-ui/index.html
+![Swagger](http://localhost:8080/swagger-ui/index.html)
+
+
 
 # Initial Class Design
 
@@ -25,3 +31,6 @@
   * SMTP CONFIG FOR EMAIL SERVICES
 
 ![IntiliJ LLD Design Exported](src/main/resources/images/MyProjectFullClassDiagram.jpg)
+
+
+
