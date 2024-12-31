@@ -12,6 +12,8 @@ import java.util.Properties;
 public class MailConfig {
 
     private static final Logger log = LoggerFactory.getLogger(MailConfig.class);
+
+
     @Bean
     public JavaMailSender getJavaMailSender() {
         log.info("------------------------ Creating JavaMailSender ---------------------------------");

@@ -1,7 +1,6 @@
 package org.api.emailverfication.models;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -12,3 +11,13 @@ import lombok.Setter;
 public class OTP extends BaseModel{
     private String otp;
 }
+
+/**
+ *
+ * All these are the user columns
+ * ------------
+ * UUID id
+ * String email
+ * String phone
+ *
+ */
