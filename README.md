@@ -48,3 +48,11 @@ http://localhost:8080/swagger-ui/index.html
   * SMTP CONFIG FOR EMAIL SERVICES
 
 ![IntiliJ LLD Design Exported](src/main/resources/images/MyProjectFullClassDiagram.jpg)
+
+
+
+# Swagger Api doc Version 1
+
+
+![Swagger API Doc Version 1](src/main/resources/images/Swagger_api_doc.png)
+
