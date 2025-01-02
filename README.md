@@ -10,11 +10,18 @@
 8. Exceptions and Controller Advice
 9. Custom Querys
 10. SMTP email servers (google)
-11.
+
+
+# Add Dummy Data for Testing Rest Api Endpoint's
+
+Go to the resources folder -> Querys -> Dummy_Data_Creation.sql file -> run into your MySql ( email ) Database thats it.
+
 
 #### Swagger link
 
 http://localhost:8080/swagger-ui/index.html
+
+
 
 # Initial Class Design
 

@@ -3,6 +3,7 @@ package org.api.emailverfication.services.user;
 
 import org.api.emailverfication.constents.STATE;
 import org.api.emailverfication.dtos.UserRequestDTO;
+import org.api.emailverfication.dtos.UserResponceDTO;
 import org.api.emailverfication.models.User;
 import org.api.emailverfication.repo.UserRepo;
 import org.api.emailverfication.services.EmailService;
@@ -12,6 +13,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 import java.util.UUID;
 
 @Service("userService")
@@ -69,6 +72,18 @@ public class UserService implements IUserService {
             return false;
         }
         return true;
+    }
+
+
+    /**
+     * Getting all the user responce Dto's
+     * @return
+     */
+
+    @Override
+    public List<UserResponceDTO> getAllUsers() {
+        List<User> users = userRepo.findAll();
+        return userUtils.getAllUserDTOs(users);
     }
 
 

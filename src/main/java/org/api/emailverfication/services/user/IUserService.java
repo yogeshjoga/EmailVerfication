@@ -1,8 +1,10 @@
 package org.api.emailverfication.services.user;
 
 import org.api.emailverfication.dtos.UserRequestDTO;
+import org.api.emailverfication.dtos.UserResponceDTO;
 import org.api.emailverfication.models.User;
 
+import java.util.List;
 import java.util.UUID;
 
 public interface IUserService {
@@ -14,4 +16,6 @@ public interface IUserService {
     User getUserByEmail(String email);
 
     Boolean validatePassword(UUID id,String password);
+
+    List<UserResponceDTO> getAllUsers();
 }

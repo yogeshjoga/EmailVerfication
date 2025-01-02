@@ -5,6 +5,9 @@ import org.api.emailverfication.dtos.UserResponceDTO;
 import org.api.emailverfication.models.User;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Component
 public class UserUtils {
 
@@ -46,4 +49,19 @@ public class UserUtils {
         user.setIsVerified(dto.getIsVerified());
         return user;
     }
+
+
+    /**
+     * Get all users for responce type is UserResponceDTO
+     * @param users
+     * @return
+     */
+    public List<UserResponceDTO> getAllUserDTOs(List<User> users){
+        List<UserResponceDTO> dtos = new ArrayList<UserResponceDTO>();
+        for(User user : users){
+            dtos.add(getUserResponceDTO(user));
+        }
+        return dtos;
+    }
+
 }
