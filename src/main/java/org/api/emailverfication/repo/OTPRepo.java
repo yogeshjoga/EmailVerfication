@@ -12,7 +12,6 @@ import java.util.UUID;
 @Repository
 public interface OTPRepo extends JpaRepository<OTP, UUID> {
 
-
     @Query("SELECT O.otp FROM otps O where O.email = :email")
     String getOTPByEmail(@Param("email") String email);
 
@@ -21,5 +20,12 @@ public interface OTPRepo extends JpaRepository<OTP, UUID> {
     @Transactional
     @Query("DELETE FROM otps where email = :email")
     void deleteOTPByEmail(@Param("email") String email);
+
+
+    @Query("SELECT COUNT(O) > 0 FROM otps O WHERE O.email = :email")
+    boolean findByEmail(String email);
+
+    @Query("SELECT O FROM otps O WHERE O.email = :email")
+    OTP findByOtp(@Param("email") String email);
 
 }

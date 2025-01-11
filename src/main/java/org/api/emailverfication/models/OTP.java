@@ -4,12 +4,17 @@ import jakarta.persistence.Entity;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.time.LocalDateTime;
+
 
 @Setter
 @Getter
 @Entity(name = "otps")
 public class OTP extends BaseModel{
     private String otp;
+    // new column
+    private LocalDateTime createdAt;
+
 }
 
 /**

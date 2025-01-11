@@ -1,4 +1,4 @@
-package org.api.emailverfication.services.verification;
+package org.api.emailverfication.services.otpservice;
 
 
 import org.apache.logging.log4j.LogManager;

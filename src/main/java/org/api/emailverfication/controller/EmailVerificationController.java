@@ -40,16 +40,23 @@ public class EmailVerificationController {
         headers.add("Content-Type", "application/json");
         headers.add("this for send verification mail", "that's it");
         log.info("Sending verification email to " + email);
-        verificationService.sendVerificationEmail(email);
-        log.info("Verification email sent");
-        return new ResponseEntity<>("Verification email sent",headers , HttpStatus.OK);
+
+       // verificationService.sendVerificationEmail(email)
+        if(!verificationService.sendVerificationEmail(email)){
+            log.info("Verification email Not sent INTERNAL_SERVER_ERROR");
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+        }else{
+            log.info("Verification email sent OK");
+            return new ResponseEntity<>("Verification email sent",headers , HttpStatus.OK);
+        }
+
     }
 
     @GetMapping("/verify")
     public ResponseEntity<VERIFIED> verifyEmail(@RequestParam String email, @RequestParam String otp) {
         VERIFIED isVerified = verificationService.verifyOTP(email, otp);
         if (isVerified == null || isVerified == VERIFIED.NOT_VERIFIED) {
-            throw new WrongOTPException("Wrong OTP");
+            throw new WrongOTPException("Wrong OTP or OTP Time exceeded Please try again");
         }
         return ResponseEntity.ok(isVerified);
     }

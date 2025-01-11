@@ -38,8 +38,8 @@ public class ControllerAdvice {
      */
     @ExceptionHandler({ WrongOTPException.class,UserNotFoundException.class,
             WrongPasswordException.class ,WrongUserNameException.class})
-    public ResponseEntity<Exception> invalidException(Exception ex){
-        return ResponseEntity.status(400).body(ex);
+    public ResponseEntity<String> invalidException(Exception ex){
+        return ResponseEntity.status(400).body(ex.getMessage());
     }
 
 
