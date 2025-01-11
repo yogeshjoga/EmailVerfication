@@ -1,4 +1,4 @@
-package org.api.emailverfication.services;
+package org.api.emailverfication.services.verificationservice;
 
 import org.api.emailverfication.constents.VERIFIED;
 

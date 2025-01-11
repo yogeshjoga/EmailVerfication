@@ -9,7 +9,7 @@ import org.api.emailverfication.dtos.UserResponceDTO;
 import org.api.emailverfication.models.User;
 import org.api.emailverfication.repo.OTPRepo;
 import org.api.emailverfication.repo.UserRepo;
-import org.api.emailverfication.services.IVerificationService;
+import org.api.emailverfication.services.verificationservice.IVerificationService;
 import org.api.emailverfication.services.user.UserService;
 import org.api.emailverfication.utils.UserUtils;
 import org.slf4j.Logger;

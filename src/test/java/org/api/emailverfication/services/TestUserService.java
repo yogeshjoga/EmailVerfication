@@ -6,6 +6,7 @@ import org.api.emailverfication.dtos.UserRequestDTO;
 import org.api.emailverfication.models.User;
 import org.api.emailverfication.repo.UserRepo;
 import org.api.emailverfication.services.user.UserService;
+import org.api.emailverfication.services.verificationservice.VerificationService;
 import org.api.emailverfication.utils.UserUtils;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

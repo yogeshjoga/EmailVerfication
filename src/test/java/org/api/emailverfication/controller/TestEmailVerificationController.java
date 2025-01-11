@@ -3,7 +3,7 @@ package org.api.emailverfication.controller;
 
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletResponse;
-import org.api.emailverfication.services.IVerificationService;
+import org.api.emailverfication.services.verificationservice.IVerificationService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;

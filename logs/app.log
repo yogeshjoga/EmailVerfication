@@ -1,15 +1,22 @@
-2025-01-09 11:41:42,808 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> Starting TestEmailVerificationController using Java 23.0.1 with PID 16096 (started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
-2025-01-09 11:41:42,810 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
-2025-01-09 11:41:43,309 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
-2025-01-09 11:41:43,350 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
-2025-01-09 11:41:43,635 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
-2025-01-09 11:41:43,684 : org.hibernate.Version : INFO --> HHH000412: Hibernate ORM core version 6.6.2.Final : logVersion : 
-2025-01-09 11:41:43,715 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
-2025-01-09 11:41:43,937 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
-2025-01-09 11:41:43,959 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Starting... : getConnection : 
-2025-01-09 11:41:44,172 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4571cebe : checkFailFast : 
-2025-01-09 11:41:44,173 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Start completed. : getConnection : 
-2025-01-09 11:41:44,229 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
+2025-01-11 14:03:16,991 : org.api.emailverfication.EmailVerficationApplication : INFO --> Starting EmailVerficationApplication using Java 23.0.1 with PID 13112 (D:\Github_projects\EmailVerfication\target\classes started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
+2025-01-11 14:03:16,994 : org.api.emailverfication.EmailVerficationApplication : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
+2025-01-11 14:03:17,029 : org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : INFO --> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable : logTo : 
+2025-01-11 14:03:17,030 : org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : INFO --> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' : logTo : 
+2025-01-11 14:03:17,517 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
+2025-01-11 14:03:17,559 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
+2025-01-11 14:03:17,832 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat initialized with port 8080 (http) : initialize : 
+2025-01-11 14:03:17,840 : org.apache.catalina.core.StandardService : INFO --> Starting service [Tomcat] : log : 
+2025-01-11 14:03:17,841 : org.apache.catalina.core.StandardEngine : INFO --> Starting Servlet engine: [Apache Tomcat/10.1.33] : log : 
+2025-01-11 14:03:17,868 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring embedded WebApplicationContext : log : 
+2025-01-11 14:03:17,868 : org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO --> Root WebApplicationContext: initialization completed in 838 ms : prepareWebApplicationContext : 
+2025-01-11 14:03:17,954 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
+2025-01-11 14:03:17,995 : org.hibernate.Version : INFO --> HHH000412: Hibernate ORM core version 6.6.2.Final : logVersion : 
+2025-01-11 14:03:18,015 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
+2025-01-11 14:03:18,193 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
+2025-01-11 14:03:18,211 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Starting... : getConnection : 
+2025-01-11 14:03:18,502 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38ca3ead : checkFailFast : 
+2025-01-11 14:03:18,503 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Start completed. : getConnection : 
+2025-01-11 14:03:18,567 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.40
@@ -17,30 +24,124 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown : initiateService : 
-2025-01-09 11:41:44,728 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
-2025-01-09 11:41:44,755 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
-2025-01-09 11:41:44,950 : org.springframework.data.jpa.repository.query.QueryEnhancerFactory : INFO --> Hibernate is in classpath; If applicable, HQL parser will be used. : <clinit> : 
-2025-01-09 11:41:45,238 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
-2025-01-09 11:41:45,246 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
-2025-01-09 11:41:45,472 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
-2025-01-09 11:41:45,809 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> Started TestEmailVerificationController in 3.247 seconds (process running for 3.955) : logStarted : 
-2025-01-09 11:41:46,192 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Sending verification email to test@example.com : sendVerificationEmail : 
-2025-01-09 11:41:46,193 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Verification email sent : sendVerificationEmail : 
-2025-01-09 11:41:46,210 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
-2025-01-09 11:41:46,211 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown initiated... : close : 
-2025-01-09 11:41:46,217 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown completed. : close : 
-2025-01-09 11:43:18,825 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> Starting TestEmailVerificationController using Java 23.0.1 with PID 10472 (started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
-2025-01-09 11:43:18,826 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
-2025-01-09 11:43:19,285 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
-2025-01-09 11:43:19,323 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 31 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
-2025-01-09 11:43:19,595 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
-2025-01-09 11:43:19,629 : org.hibernate.Version : INFO --> HHH000412: Hibernate ORM core version 6.6.2.Final : logVersion : 
-2025-01-09 11:43:19,649 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
-2025-01-09 11:43:19,822 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
-2025-01-09 11:43:19,846 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Starting... : getConnection : 
-2025-01-09 11:43:20,028 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d626f2 : checkFailFast : 
-2025-01-09 11:43:20,029 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Start completed. : getConnection : 
-2025-01-09 11:43:20,072 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
+2025-01-11 14:03:19,072 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
+2025-01-11 14:03:19,135 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
+2025-01-11 14:03:19,287 : org.springframework.data.jpa.repository.query.QueryEnhancerFactory : INFO --> Hibernate is in classpath; If applicable, HQL parser will be used. : <clinit> : 
+2025-01-11 14:03:19,539 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
+2025-01-11 14:03:19,545 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
+2025-01-11 14:03:19,663 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
+2025-01-11 14:03:19,980 : org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : INFO --> LiveReload server is running on port 35729 : startServer : 
+2025-01-11 14:03:20,004 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat started on port 8080 (http) with context path '/' : start : 
+2025-01-11 14:03:20,009 : org.api.emailverfication.EmailVerficationApplication : INFO --> Started EmailVerficationApplication in 3.264 seconds (process running for 3.728) : logStarted : 
+2025-01-11 14:04:07,052 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring DispatcherServlet 'dispatcherServlet' : log : 
+2025-01-11 14:04:07,053 : org.springframework.web.servlet.DispatcherServlet : INFO --> Initializing Servlet 'dispatcherServlet' : initServletBean : 
+2025-01-11 14:04:07,053 : org.springframework.web.servlet.DispatcherServlet : INFO --> Completed initialization in 0 ms : initServletBean : 
+2025-01-11 14:04:07,073 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Sending verification email to venky143rama@gmail.com : sendVerificationEmail : 
+2025-01-11 14:04:07,073 : org.api.emailverfication.services.VerificationService : INFO --> Sending verification email to venky143rama@gmail.com : sendVerificationEmail : 
+2025-01-11 14:04:07,073 : org.api.emailverfication.services.VerificationService : INFO --> crated OTP: org.api.emailverfication.models.OTP@1e59ab90 : sendVerificationEmail : 
+2025-01-11 14:04:07,073 : org.api.emailverfication.services.VerificationService : INFO --> OTP saved into otpRepo org.api.emailverfication.models.OTP@1e59ab90 : sendVerificationEmail : 
+2025-01-11 14:04:07,145 : org.api.emailverfication.services.VerificationService : INFO --> calling SendVerificationEmail to venky143rama@gmail.com : sendVerificationEmail : 
+2025-01-11 14:04:13,317 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Verification email sent : sendVerificationEmail : 
+2025-01-11 14:06:20,139 : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : INFO --> Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications) : onApplicationEvent : 
+2025-01-11 14:06:20,141 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Commencing graceful shutdown. Waiting for active requests to complete : shutDownGracefully : 
+2025-01-11 14:06:20,145 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Graceful shutdown complete : doShutdown : 
+2025-01-11 14:06:20,147 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
+2025-01-11 14:06:20,149 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown initiated... : close : 
+2025-01-11 14:06:20,151 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown completed. : close : 
+2025-01-11 14:06:20,210 : org.api.emailverfication.EmailVerficationApplication : INFO --> Starting EmailVerficationApplication using Java 23.0.1 with PID 13112 (D:\Github_projects\EmailVerfication\target\classes started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
+2025-01-11 14:06:20,211 : org.api.emailverfication.EmailVerficationApplication : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
+2025-01-11 14:06:20,309 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
+2025-01-11 14:06:20,317 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 7 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
+2025-01-11 14:06:20,365 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat initialized with port 8080 (http) : initialize : 
+2025-01-11 14:06:20,365 : org.apache.catalina.core.StandardService : INFO --> Starting service [Tomcat] : log : 
+2025-01-11 14:06:20,365 : org.apache.catalina.core.StandardEngine : INFO --> Starting Servlet engine: [Apache Tomcat/10.1.33] : log : 
+2025-01-11 14:06:20,375 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring embedded WebApplicationContext : log : 
+2025-01-11 14:06:20,376 : org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO --> Root WebApplicationContext: initialization completed in 164 ms : prepareWebApplicationContext : 
+2025-01-11 14:06:20,392 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
+2025-01-11 14:06:20,393 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
+2025-01-11 14:06:20,397 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
+2025-01-11 14:06:20,397 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-2 - Starting... : getConnection : 
+2025-01-11 14:06:20,407 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77610bfa : checkFailFast : 
+2025-01-11 14:06:20,407 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-2 - Start completed. : getConnection : 
+2025-01-11 14:06:20,408 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown : initiateService : 
+2025-01-11 14:06:20,432 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
+2025-01-11 14:06:20,437 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
+2025-01-11 14:06:20,463 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
+2025-01-11 14:06:20,464 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
+2025-01-11 14:06:20,490 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
+2025-01-11 14:06:20,541 : org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : INFO --> LiveReload server is running on port 35729 : startServer : 
+2025-01-11 14:06:20,547 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat started on port 8080 (http) with context path '/' : start : 
+2025-01-11 14:06:20,549 : org.api.emailverfication.EmailVerficationApplication : INFO --> Started EmailVerficationApplication in 0.352 seconds (process running for 184.268) : logStarted : 
+2025-01-11 14:06:20,550 : org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : INFO --> Condition evaluation unchanged : onApplicationEvent : 
+2025-01-11 14:06:21,969 : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : INFO --> Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications) : onApplicationEvent : 
+2025-01-11 14:06:21,970 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Commencing graceful shutdown. Waiting for active requests to complete : shutDownGracefully : 
+2025-01-11 14:06:21,973 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Graceful shutdown complete : doShutdown : 
+2025-01-11 14:06:21,974 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
+2025-01-11 14:06:21,975 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-2 - Shutdown initiated... : close : 
+2025-01-11 14:06:21,976 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-2 - Shutdown completed. : close : 
+2025-01-11 14:06:22,025 : org.api.emailverfication.EmailVerficationApplication : INFO --> Starting EmailVerficationApplication using Java 23.0.1 with PID 13112 (D:\Github_projects\EmailVerfication\target\classes started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
+2025-01-11 14:06:22,025 : org.api.emailverfication.EmailVerficationApplication : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
+2025-01-11 14:06:22,106 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
+2025-01-11 14:06:22,113 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 6 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
+2025-01-11 14:06:22,151 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat initialized with port 8080 (http) : initialize : 
+2025-01-11 14:06:22,151 : org.apache.catalina.core.StandardService : INFO --> Starting service [Tomcat] : log : 
+2025-01-11 14:06:22,152 : org.apache.catalina.core.StandardEngine : INFO --> Starting Servlet engine: [Apache Tomcat/10.1.33] : log : 
+2025-01-11 14:06:22,160 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring embedded WebApplicationContext : log : 
+2025-01-11 14:06:22,160 : org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO --> Root WebApplicationContext: initialization completed in 134 ms : prepareWebApplicationContext : 
+2025-01-11 14:06:22,174 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
+2025-01-11 14:06:22,175 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
+2025-01-11 14:06:22,179 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
+2025-01-11 14:06:22,179 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-3 - Starting... : getConnection : 
+2025-01-11 14:06:22,188 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a7a2e3f : checkFailFast : 
+2025-01-11 14:06:22,188 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-3 - Start completed. : getConnection : 
+2025-01-11 14:06:22,189 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown : initiateService : 
+2025-01-11 14:06:22,211 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
+2025-01-11 14:06:22,214 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
+2025-01-11 14:06:22,240 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
+2025-01-11 14:06:22,241 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
+2025-01-11 14:06:22,263 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
+2025-01-11 14:06:22,308 : org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : INFO --> LiveReload server is running on port 35729 : startServer : 
+2025-01-11 14:06:22,314 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat started on port 8080 (http) with context path '/' : start : 
+2025-01-11 14:06:22,316 : org.api.emailverfication.EmailVerficationApplication : INFO --> Started EmailVerficationApplication in 0.302 seconds (process running for 186.035) : logStarted : 
+2025-01-11 14:06:22,316 : org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : INFO --> Condition evaluation unchanged : onApplicationEvent : 
+2025-01-11 14:08:07,289 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Commencing graceful shutdown. Waiting for active requests to complete : shutDownGracefully : 
+2025-01-11 14:08:07,293 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Graceful shutdown complete : doShutdown : 
+2025-01-11 14:08:07,294 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
+2025-01-11 14:08:07,294 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-3 - Shutdown initiated... : close : 
+2025-01-11 14:08:07,296 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-3 - Shutdown completed. : close : 
+2025-01-11 14:08:09,352 : org.api.emailverfication.EmailVerficationApplication : INFO --> Starting EmailVerficationApplication using Java 23.0.1 with PID 13028 (D:\Github_projects\EmailVerfication\target\classes started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
+2025-01-11 14:08:09,353 : org.api.emailverfication.EmailVerficationApplication : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
+2025-01-11 14:08:09,381 : org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : INFO --> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable : logTo : 
+2025-01-11 14:08:09,382 : org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : INFO --> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' : logTo : 
+2025-01-11 14:08:09,753 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
+2025-01-11 14:08:09,789 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
+2025-01-11 14:08:10,030 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat initialized with port 8080 (http) : initialize : 
+2025-01-11 14:08:10,042 : org.apache.catalina.core.StandardService : INFO --> Starting service [Tomcat] : log : 
+2025-01-11 14:08:10,042 : org.apache.catalina.core.StandardEngine : INFO --> Starting Servlet engine: [Apache Tomcat/10.1.33] : log : 
+2025-01-11 14:08:10,065 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring embedded WebApplicationContext : log : 
+2025-01-11 14:08:10,065 : org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO --> Root WebApplicationContext: initialization completed in 683 ms : prepareWebApplicationContext : 
+2025-01-11 14:08:10,132 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
+2025-01-11 14:08:10,157 : org.hibernate.Version : INFO --> HHH000412: Hibernate ORM core version 6.6.2.Final : logVersion : 
+2025-01-11 14:08:10,172 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
+2025-01-11 14:08:10,306 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
+2025-01-11 14:08:10,324 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Starting... : getConnection : 
+2025-01-11 14:08:10,506 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e6a7744 : checkFailFast : 
+2025-01-11 14:08:10,507 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Start completed. : getConnection : 
+2025-01-11 14:08:10,550 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.40
@@ -48,30 +149,48 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown : initiateService : 
-2025-01-09 11:43:20,523 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
-2025-01-09 11:43:20,550 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
-2025-01-09 11:43:20,722 : org.springframework.data.jpa.repository.query.QueryEnhancerFactory : INFO --> Hibernate is in classpath; If applicable, HQL parser will be used. : <clinit> : 
-2025-01-09 11:43:20,983 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
-2025-01-09 11:43:20,991 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
-2025-01-09 11:43:21,183 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
-2025-01-09 11:43:21,478 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> Started TestEmailVerificationController in 2.837 seconds (process running for 3.484) : logStarted : 
-2025-01-09 11:43:21,838 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Sending verification email to test@example.com : sendVerificationEmail : 
-2025-01-09 11:43:21,838 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Verification email sent : sendVerificationEmail : 
-2025-01-09 11:43:21,854 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
-2025-01-09 11:43:21,855 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown initiated... : close : 
-2025-01-09 11:43:21,861 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown completed. : close : 
-2025-01-09 11:51:10,726 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> Starting TestEmailVerificationController using Java 23.0.1 with PID 20808 (started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
-2025-01-09 11:51:10,728 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
-2025-01-09 11:51:11,163 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
-2025-01-09 11:51:11,200 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 31 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
-2025-01-09 11:51:11,484 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
-2025-01-09 11:51:11,516 : org.hibernate.Version : INFO --> HHH000412: Hibernate ORM core version 6.6.2.Final : logVersion : 
-2025-01-09 11:51:11,535 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
-2025-01-09 11:51:11,692 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
-2025-01-09 11:51:11,715 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Starting... : getConnection : 
-2025-01-09 11:51:11,914 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15be68b : checkFailFast : 
-2025-01-09 11:51:11,916 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Start completed. : getConnection : 
-2025-01-09 11:51:11,959 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
+2025-01-11 14:08:10,954 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
+2025-01-11 14:08:10,977 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
+2025-01-11 14:08:11,098 : org.springframework.data.jpa.repository.query.QueryEnhancerFactory : INFO --> Hibernate is in classpath; If applicable, HQL parser will be used. : <clinit> : 
+2025-01-11 14:08:11,306 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
+2025-01-11 14:08:11,312 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
+2025-01-11 14:08:11,412 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
+2025-01-11 14:08:11,607 : org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : INFO --> LiveReload server is running on port 35729 : startServer : 
+2025-01-11 14:08:11,625 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat started on port 8080 (http) with context path '/' : start : 
+2025-01-11 14:08:11,629 : org.api.emailverfication.EmailVerficationApplication : INFO --> Started EmailVerficationApplication in 2.477 seconds (process running for 2.816) : logStarted : 
+2025-01-11 14:08:14,549 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring DispatcherServlet 'dispatcherServlet' : log : 
+2025-01-11 14:08:14,550 : org.springframework.web.servlet.DispatcherServlet : INFO --> Initializing Servlet 'dispatcherServlet' : initServletBean : 
+2025-01-11 14:08:14,550 : org.springframework.web.servlet.DispatcherServlet : INFO --> Completed initialization in 0 ms : initServletBean : 
+2025-01-11 14:08:14,570 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Sending verification email to venky143rama@gmail.com : sendVerificationEmail : 
+2025-01-11 14:08:14,571 : org.api.emailverfication.services.VerificationService : INFO --> Sending verification email to venky143rama@gmail.com : sendVerificationEmail : 
+2025-01-11 14:08:14,571 : org.api.emailverfication.services.VerificationService : INFO --> crated OTP: org.api.emailverfication.models.OTP@6dc73d33 : sendVerificationEmail : 
+2025-01-11 14:08:14,571 : org.api.emailverfication.services.VerificationService : INFO --> OTP saved into otpRepo org.api.emailverfication.models.OTP@6dc73d33 : sendVerificationEmail : 
+2025-01-11 14:08:14,615 : org.api.emailverfication.services.VerificationService : INFO --> calling SendVerificationEmail to venky143rama@gmail.com : sendVerificationEmail : 
+2025-01-11 14:08:20,605 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Verification email sent : sendVerificationEmail : 
+2025-01-11 14:09:25,734 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Commencing graceful shutdown. Waiting for active requests to complete : shutDownGracefully : 
+2025-01-11 14:09:25,738 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Graceful shutdown complete : doShutdown : 
+2025-01-11 14:09:25,740 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
+2025-01-11 14:09:25,741 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown initiated... : close : 
+2025-01-11 14:09:25,744 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown completed. : close : 
+2025-01-11 15:09:48,491 : org.api.emailverfication.EmailVerficationApplication : INFO --> Starting EmailVerficationApplication using Java 23.0.1 with PID 19996 (D:\Github_projects\EmailVerfication\target\classes started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
+2025-01-11 15:09:48,493 : org.api.emailverfication.EmailVerficationApplication : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
+2025-01-11 15:09:48,520 : org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : INFO --> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable : logTo : 
+2025-01-11 15:09:48,520 : org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : INFO --> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' : logTo : 
+2025-01-11 15:09:48,893 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
+2025-01-11 15:09:48,924 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 27 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
+2025-01-11 15:09:49,163 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat initialized with port 8080 (http) : initialize : 
+2025-01-11 15:09:49,169 : org.apache.catalina.core.StandardService : INFO --> Starting service [Tomcat] : log : 
+2025-01-11 15:09:49,170 : org.apache.catalina.core.StandardEngine : INFO --> Starting Servlet engine: [Apache Tomcat/10.1.33] : log : 
+2025-01-11 15:09:49,192 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring embedded WebApplicationContext : log : 
+2025-01-11 15:09:49,193 : org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO --> Root WebApplicationContext: initialization completed in 672 ms : prepareWebApplicationContext : 
+2025-01-11 15:09:49,260 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
+2025-01-11 15:09:49,285 : org.hibernate.Version : INFO --> HHH000412: Hibernate ORM core version 6.6.2.Final : logVersion : 
+2025-01-11 15:09:49,299 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
+2025-01-11 15:09:49,438 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
+2025-01-11 15:09:49,453 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Starting... : getConnection : 
+2025-01-11 15:09:49,634 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@549e0944 : checkFailFast : 
+2025-01-11 15:09:49,635 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Start completed. : getConnection : 
+2025-01-11 15:09:49,674 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.40
@@ -79,33 +198,54 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown : initiateService : 
-2025-01-09 11:51:12,404 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
-2025-01-09 11:51:12,428 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
-2025-01-09 11:51:12,617 : org.springframework.data.jpa.repository.query.QueryEnhancerFactory : INFO --> Hibernate is in classpath; If applicable, HQL parser will be used. : <clinit> : 
-2025-01-09 11:51:12,872 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
-2025-01-09 11:51:12,880 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
-2025-01-09 11:51:13,073 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
-2025-01-09 11:51:13,361 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> Started TestEmailVerificationController in 2.801 seconds (process running for 3.436) : logStarted : 
-2025-01-09 11:51:13,731 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Sending verification email to test@example.com : sendVerificationEmail : 
-2025-01-09 11:51:13,732 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Verification email sent : sendVerificationEmail : 
-2025-01-09 11:51:13,739 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> Verification email sent : testSendVerificationEmail : 
-2025-01-09 11:51:13,739 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> Email verified successfully : testSendVerificationEmail : 
-2025-01-09 11:51:13,739 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> Test successfully verified : testSendVerificationEmail : 
-2025-01-09 11:51:13,748 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
-2025-01-09 11:51:13,749 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown initiated... : close : 
-2025-01-09 11:51:13,756 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown completed. : close : 
-2025-01-09 12:01:02,665 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> Starting TestEmailVerificationController using Java 23.0.1 with PID 27040 (started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
-2025-01-09 12:01:02,666 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
-2025-01-09 12:01:03,121 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
-2025-01-09 12:01:03,165 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
-2025-01-09 12:01:03,469 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
-2025-01-09 12:01:03,503 : org.hibernate.Version : INFO --> HHH000412: Hibernate ORM core version 6.6.2.Final : logVersion : 
-2025-01-09 12:01:03,523 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
-2025-01-09 12:01:03,721 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
-2025-01-09 12:01:03,741 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Starting... : getConnection : 
-2025-01-09 12:01:03,956 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ec7ad61 : checkFailFast : 
-2025-01-09 12:01:03,958 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Start completed. : getConnection : 
-2025-01-09 12:01:04,007 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
+2025-01-11 15:09:50,071 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
+2025-01-11 15:09:50,095 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
+2025-01-11 15:09:50,220 : org.springframework.data.jpa.repository.query.QueryEnhancerFactory : INFO --> Hibernate is in classpath; If applicable, HQL parser will be used. : <clinit> : 
+2025-01-11 15:09:50,437 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
+2025-01-11 15:09:50,442 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
+2025-01-11 15:09:50,549 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
+2025-01-11 15:09:50,760 : org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : INFO --> LiveReload server is running on port 35729 : startServer : 
+2025-01-11 15:09:50,779 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat started on port 8080 (http) with context path '/' : start : 
+2025-01-11 15:09:50,783 : org.api.emailverfication.EmailVerficationApplication : INFO --> Started EmailVerficationApplication in 2.492 seconds (process running for 2.829) : logStarted : 
+2025-01-11 15:09:53,318 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring DispatcherServlet 'dispatcherServlet' : log : 
+2025-01-11 15:09:53,319 : org.springframework.web.servlet.DispatcherServlet : INFO --> Initializing Servlet 'dispatcherServlet' : initServletBean : 
+2025-01-11 15:09:53,319 : org.springframework.web.servlet.DispatcherServlet : INFO --> Completed initialization in 0 ms : initServletBean : 
+2025-01-11 15:09:53,340 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Sending verification email to venky143rama@gmail.com : sendVerificationEmail : 
+2025-01-11 15:09:53,340 : org.api.emailverfication.services.VerificationService : INFO --> Sending verification email to venky143rama@gmail.com : sendVerificationEmail : 
+2025-01-11 15:09:53,340 : org.api.emailverfication.services.VerificationService : INFO --> crated OTP: org.api.emailverfication.models.OTP@7c146032 : sendVerificationEmail : 
+2025-01-11 15:09:53,340 : org.api.emailverfication.services.VerificationService : INFO --> OTP saved into otpRepo org.api.emailverfication.models.OTP@7c146032 : sendVerificationEmail : 
+2025-01-11 15:09:53,386 : org.api.emailverfication.services.VerificationService : INFO --> calling SendVerificationEmail to venky143rama@gmail.com : sendVerificationEmail : 
+2025-01-11 15:10:00,263 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Verification email sent : sendVerificationEmail : 
+2025-01-11 15:10:22,489 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Sending verification email to jogayogeshedu@gmail.com : sendVerificationEmail : 
+2025-01-11 15:10:22,490 : org.api.emailverfication.services.VerificationService : INFO --> Sending verification email to jogayogeshedu@gmail.com : sendVerificationEmail : 
+2025-01-11 15:10:22,490 : org.api.emailverfication.services.VerificationService : INFO --> crated OTP: org.api.emailverfication.models.OTP@75af4eee : sendVerificationEmail : 
+2025-01-11 15:10:22,490 : org.api.emailverfication.services.VerificationService : INFO --> OTP saved into otpRepo org.api.emailverfication.models.OTP@75af4eee : sendVerificationEmail : 
+2025-01-11 15:10:22,496 : org.api.emailverfication.services.VerificationService : INFO --> calling SendVerificationEmail to jogayogeshedu@gmail.com : sendVerificationEmail : 
+2025-01-11 15:10:29,017 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Verification email sent : sendVerificationEmail : 
+2025-01-11 15:11:50,086 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Commencing graceful shutdown. Waiting for active requests to complete : shutDownGracefully : 
+2025-01-11 15:11:50,091 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Graceful shutdown complete : doShutdown : 
+2025-01-11 15:11:50,093 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
+2025-01-11 15:11:50,094 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown initiated... : close : 
+2025-01-11 15:11:50,097 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown completed. : close : 
+2025-01-11 15:11:52,144 : org.api.emailverfication.EmailVerficationApplication : INFO --> Starting EmailVerficationApplication using Java 23.0.1 with PID 16476 (D:\Github_projects\EmailVerfication\target\classes started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
+2025-01-11 15:11:52,146 : org.api.emailverfication.EmailVerficationApplication : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
+2025-01-11 15:11:52,171 : org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : INFO --> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable : logTo : 
+2025-01-11 15:11:52,171 : org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : INFO --> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' : logTo : 
+2025-01-11 15:11:52,530 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
+2025-01-11 15:11:52,559 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 25 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
+2025-01-11 15:11:52,813 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat initialized with port 8080 (http) : initialize : 
+2025-01-11 15:11:52,820 : org.apache.catalina.core.StandardService : INFO --> Starting service [Tomcat] : log : 
+2025-01-11 15:11:52,821 : org.apache.catalina.core.StandardEngine : INFO --> Starting Servlet engine: [Apache Tomcat/10.1.33] : log : 
+2025-01-11 15:11:52,842 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring embedded WebApplicationContext : log : 
+2025-01-11 15:11:52,842 : org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO --> Root WebApplicationContext: initialization completed in 670 ms : prepareWebApplicationContext : 
+2025-01-11 15:11:52,914 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
+2025-01-11 15:11:52,939 : org.hibernate.Version : INFO --> HHH000412: Hibernate ORM core version 6.6.2.Final : logVersion : 
+2025-01-11 15:11:52,954 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
+2025-01-11 15:11:53,094 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
+2025-01-11 15:11:53,129 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Starting... : getConnection : 
+2025-01-11 15:11:53,304 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4df15c1f : checkFailFast : 
+2025-01-11 15:11:53,305 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Start completed. : getConnection : 
+2025-01-11 15:11:53,343 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.40
@@ -113,33 +253,48 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown : initiateService : 
-2025-01-09 12:01:04,467 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
-2025-01-09 12:01:04,497 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
-2025-01-09 12:01:04,658 : org.springframework.data.jpa.repository.query.QueryEnhancerFactory : INFO --> Hibernate is in classpath; If applicable, HQL parser will be used. : <clinit> : 
-2025-01-09 12:01:04,945 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
-2025-01-09 12:01:04,957 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
-2025-01-09 12:01:05,208 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
-2025-01-09 12:01:05,647 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> Started TestEmailVerificationController in 3.208 seconds (process running for 4.043) : logStarted : 
-2025-01-09 12:01:25,389 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Sending verification email to test@example.com : sendVerificationEmail : 
-2025-01-09 12:01:25,390 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Verification email sent : sendVerificationEmail : 
-2025-01-09 12:01:34,881 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> Verification email sent : testSendVerificationEmail : 
-2025-01-09 12:01:35,249 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> Email verified successfully : testSendVerificationEmail : 
-2025-01-09 12:01:54,591 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> Test successfully verified : testSendVerificationEmail : 
-2025-01-09 12:01:54,610 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
-2025-01-09 12:01:54,611 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown initiated... : close : 
-2025-01-09 12:01:54,617 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown completed. : close : 
-2025-01-09 12:04:59,605 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> Starting TestEmailVerificationController using Java 23.0.1 with PID 13776 (started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
-2025-01-09 12:04:59,606 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
-2025-01-09 12:05:00,029 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
-2025-01-09 12:05:00,065 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 30 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
-2025-01-09 12:05:00,329 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
-2025-01-09 12:05:00,359 : org.hibernate.Version : INFO --> HHH000412: Hibernate ORM core version 6.6.2.Final : logVersion : 
-2025-01-09 12:05:00,377 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
-2025-01-09 12:05:00,552 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
-2025-01-09 12:05:00,578 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Starting... : getConnection : 
-2025-01-09 12:05:00,766 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c668c2a : checkFailFast : 
-2025-01-09 12:05:00,769 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Start completed. : getConnection : 
-2025-01-09 12:05:00,814 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
+2025-01-11 15:11:53,762 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
+2025-01-11 15:11:53,790 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
+2025-01-11 15:11:53,935 : org.springframework.data.jpa.repository.query.QueryEnhancerFactory : INFO --> Hibernate is in classpath; If applicable, HQL parser will be used. : <clinit> : 
+2025-01-11 15:11:54,145 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
+2025-01-11 15:11:54,150 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
+2025-01-11 15:11:54,256 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
+2025-01-11 15:11:54,458 : org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : INFO --> LiveReload server is running on port 35729 : startServer : 
+2025-01-11 15:11:54,477 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat started on port 8080 (http) with context path '/' : start : 
+2025-01-11 15:11:54,481 : org.api.emailverfication.EmailVerficationApplication : INFO --> Started EmailVerficationApplication in 2.529 seconds (process running for 2.852) : logStarted : 
+2025-01-11 15:11:56,381 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring DispatcherServlet 'dispatcherServlet' : log : 
+2025-01-11 15:11:56,382 : org.springframework.web.servlet.DispatcherServlet : INFO --> Initializing Servlet 'dispatcherServlet' : initServletBean : 
+2025-01-11 15:11:56,382 : org.springframework.web.servlet.DispatcherServlet : INFO --> Completed initialization in 0 ms : initServletBean : 
+2025-01-11 15:11:56,402 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Sending verification email to jogayogeshedu@gmail.com : sendVerificationEmail : 
+2025-01-11 15:11:56,403 : org.api.emailverfication.services.VerificationService : INFO --> Sending verification email to jogayogeshedu@gmail.com : sendVerificationEmail : 
+2025-01-11 15:11:56,403 : org.api.emailverfication.services.VerificationService : INFO --> crated OTP: org.api.emailverfication.models.OTP@15463d31 : sendVerificationEmail : 
+2025-01-11 15:11:56,403 : org.api.emailverfication.services.VerificationService : INFO --> OTP saved into otpRepo org.api.emailverfication.models.OTP@15463d31 : sendVerificationEmail : 
+2025-01-11 15:11:56,447 : org.api.emailverfication.services.VerificationService : INFO --> calling SendVerificationEmail to jogayogeshedu@gmail.com : sendVerificationEmail : 
+2025-01-11 15:12:02,144 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Verification email sent : sendVerificationEmail : 
+2025-01-11 15:14:32,099 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Commencing graceful shutdown. Waiting for active requests to complete : shutDownGracefully : 
+2025-01-11 15:14:32,102 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Graceful shutdown complete : doShutdown : 
+2025-01-11 15:14:32,104 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
+2025-01-11 15:14:32,106 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown initiated... : close : 
+2025-01-11 15:14:32,109 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown completed. : close : 
+2025-01-11 15:14:34,148 : org.api.emailverfication.EmailVerficationApplication : INFO --> Starting EmailVerficationApplication using Java 23.0.1 with PID 1784 (D:\Github_projects\EmailVerfication\target\classes started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
+2025-01-11 15:14:34,150 : org.api.emailverfication.EmailVerficationApplication : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
+2025-01-11 15:14:34,176 : org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : INFO --> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable : logTo : 
+2025-01-11 15:14:34,176 : org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : INFO --> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' : logTo : 
+2025-01-11 15:14:34,525 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
+2025-01-11 15:14:34,557 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 27 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
+2025-01-11 15:14:34,785 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat initialized with port 8080 (http) : initialize : 
+2025-01-11 15:14:34,792 : org.apache.catalina.core.StandardService : INFO --> Starting service [Tomcat] : log : 
+2025-01-11 15:14:34,793 : org.apache.catalina.core.StandardEngine : INFO --> Starting Servlet engine: [Apache Tomcat/10.1.33] : log : 
+2025-01-11 15:14:34,813 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring embedded WebApplicationContext : log : 
+2025-01-11 15:14:34,813 : org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO --> Root WebApplicationContext: initialization completed in 637 ms : prepareWebApplicationContext : 
+2025-01-11 15:14:34,878 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
+2025-01-11 15:14:34,903 : org.hibernate.Version : INFO --> HHH000412: Hibernate ORM core version 6.6.2.Final : logVersion : 
+2025-01-11 15:14:34,918 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
+2025-01-11 15:14:35,069 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
+2025-01-11 15:14:35,085 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Starting... : getConnection : 
+2025-01-11 15:14:35,264 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ddbabc : checkFailFast : 
+2025-01-11 15:14:35,266 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Start completed. : getConnection : 
+2025-01-11 15:14:35,306 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.40
@@ -147,33 +302,48 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown : initiateService : 
-2025-01-09 12:05:01,276 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
-2025-01-09 12:05:01,298 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
-2025-01-09 12:05:01,468 : org.springframework.data.jpa.repository.query.QueryEnhancerFactory : INFO --> Hibernate is in classpath; If applicable, HQL parser will be used. : <clinit> : 
-2025-01-09 12:05:01,737 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
-2025-01-09 12:05:01,747 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
-2025-01-09 12:05:01,950 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
-2025-01-09 12:05:02,277 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> Started TestEmailVerificationController in 2.834 seconds (process running for 3.441) : logStarted : 
-2025-01-09 12:05:02,642 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Sending verification email to test@example.com : sendVerificationEmail : 
-2025-01-09 12:05:02,643 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Verification email sent : sendVerificationEmail : 
-2025-01-09 12:05:02,649 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> Verification email sent : testSendVerificationEmail : 
-2025-01-09 12:05:02,649 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> Email verified successfully : testSendVerificationEmail : 
-2025-01-09 12:05:02,649 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> Test successfully verified : testSendVerificationEmail : 
-2025-01-09 12:05:02,659 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
-2025-01-09 12:05:02,660 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown initiated... : close : 
-2025-01-09 12:05:02,666 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown completed. : close : 
-2025-01-09 16:05:18,583 : org.api.emailverfication.services.TestUserService : INFO --> Starting TestUserService using Java 23.0.1 with PID 20916 (started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
-2025-01-09 16:05:18,592 : org.api.emailverfication.services.TestUserService : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
-2025-01-09 16:05:19,138 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
-2025-01-09 16:05:19,181 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
-2025-01-09 16:05:19,473 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
-2025-01-09 16:05:19,517 : org.hibernate.Version : INFO --> HHH000412: Hibernate ORM core version 6.6.2.Final : logVersion : 
-2025-01-09 16:05:19,542 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
-2025-01-09 16:05:19,747 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
-2025-01-09 16:05:19,769 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Starting... : getConnection : 
-2025-01-09 16:05:20,036 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44de8e00 : checkFailFast : 
-2025-01-09 16:05:20,038 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Start completed. : getConnection : 
-2025-01-09 16:05:20,090 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
+2025-01-11 15:14:35,723 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
+2025-01-11 15:14:35,750 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
+2025-01-11 15:14:35,920 : org.springframework.data.jpa.repository.query.QueryEnhancerFactory : INFO --> Hibernate is in classpath; If applicable, HQL parser will be used. : <clinit> : 
+2025-01-11 15:14:36,143 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
+2025-01-11 15:14:36,148 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
+2025-01-11 15:14:36,255 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
+2025-01-11 15:14:36,459 : org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : INFO --> LiveReload server is running on port 35729 : startServer : 
+2025-01-11 15:14:36,480 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat started on port 8080 (http) with context path '/' : start : 
+2025-01-11 15:14:36,484 : org.api.emailverfication.EmailVerficationApplication : INFO --> Started EmailVerficationApplication in 2.527 seconds (process running for 2.857) : logStarted : 
+2025-01-11 15:14:43,869 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring DispatcherServlet 'dispatcherServlet' : log : 
+2025-01-11 15:14:43,870 : org.springframework.web.servlet.DispatcherServlet : INFO --> Initializing Servlet 'dispatcherServlet' : initServletBean : 
+2025-01-11 15:14:43,871 : org.springframework.web.servlet.DispatcherServlet : INFO --> Completed initialization in 1 ms : initServletBean : 
+2025-01-11 15:14:43,908 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Sending verification email to jogayogeshedu@gmail.com : sendVerificationEmail : 
+2025-01-11 15:14:43,910 : org.api.emailverfication.services.VerificationService : INFO --> Sending verification email to jogayogeshedu@gmail.com : sendVerificationEmail : 
+2025-01-11 15:14:43,910 : org.api.emailverfication.services.VerificationService : INFO --> crated OTP: org.api.emailverfication.models.OTP@37404e57 : sendVerificationEmail : 
+2025-01-11 15:14:43,911 : org.api.emailverfication.services.VerificationService : INFO --> OTP saved into otpRepo org.api.emailverfication.models.OTP@37404e57 : sendVerificationEmail : 
+2025-01-11 15:14:43,983 : org.api.emailverfication.services.VerificationService : INFO --> calling SendVerificationEmail to jogayogeshedu@gmail.com : sendVerificationEmail : 
+2025-01-11 15:14:51,508 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Verification email sent : sendVerificationEmail : 
+2025-01-11 15:15:43,958 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Commencing graceful shutdown. Waiting for active requests to complete : shutDownGracefully : 
+2025-01-11 15:15:43,963 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Graceful shutdown complete : doShutdown : 
+2025-01-11 15:15:43,966 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
+2025-01-11 15:15:43,968 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown initiated... : close : 
+2025-01-11 15:15:43,972 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown completed. : close : 
+2025-01-11 15:22:07,186 : org.api.emailverfication.EmailVerficationApplication : INFO --> Starting EmailVerficationApplication using Java 23.0.1 with PID 29880 (D:\Github_projects\EmailVerfication\target\classes started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
+2025-01-11 15:22:07,187 : org.api.emailverfication.EmailVerficationApplication : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
+2025-01-11 15:22:07,217 : org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : INFO --> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable : logTo : 
+2025-01-11 15:22:07,217 : org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : INFO --> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' : logTo : 
+2025-01-11 15:22:07,608 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
+2025-01-11 15:22:07,639 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
+2025-01-11 15:22:07,880 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat initialized with port 8080 (http) : initialize : 
+2025-01-11 15:22:07,886 : org.apache.catalina.core.StandardService : INFO --> Starting service [Tomcat] : log : 
+2025-01-11 15:22:07,888 : org.apache.catalina.core.StandardEngine : INFO --> Starting Servlet engine: [Apache Tomcat/10.1.33] : log : 
+2025-01-11 15:22:07,910 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring embedded WebApplicationContext : log : 
+2025-01-11 15:22:07,911 : org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO --> Root WebApplicationContext: initialization completed in 693 ms : prepareWebApplicationContext : 
+2025-01-11 15:22:07,976 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
+2025-01-11 15:22:07,999 : org.hibernate.Version : INFO --> HHH000412: Hibernate ORM core version 6.6.2.Final : logVersion : 
+2025-01-11 15:22:08,013 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
+2025-01-11 15:22:08,150 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
+2025-01-11 15:22:08,164 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Starting... : getConnection : 
+2025-01-11 15:22:08,340 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e8d59e7 : checkFailFast : 
+2025-01-11 15:22:08,341 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Start completed. : getConnection : 
+2025-01-11 15:22:08,381 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.40
@@ -181,28 +351,124 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown : initiateService : 
-2025-01-09 16:05:20,588 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
-2025-01-09 16:05:20,614 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
-2025-01-09 16:05:20,788 : org.springframework.data.jpa.repository.query.QueryEnhancerFactory : INFO --> Hibernate is in classpath; If applicable, HQL parser will be used. : <clinit> : 
-2025-01-09 16:05:21,067 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
-2025-01-09 16:05:21,077 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
-2025-01-09 16:05:21,319 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
-2025-01-09 16:05:21,640 : org.api.emailverfication.services.TestUserService : INFO --> Started TestUserService in 3.266 seconds (process running for 3.986) : logStarted : 
-2025-01-09 16:05:22,195 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
-2025-01-09 16:05:22,197 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown initiated... : close : 
-2025-01-09 16:05:22,205 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown completed. : close : 
-2025-01-09 16:06:29,063 : org.api.emailverfication.services.TestUserService : INFO --> Starting TestUserService using Java 23.0.1 with PID 21708 (started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
-2025-01-09 16:06:29,064 : org.api.emailverfication.services.TestUserService : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
-2025-01-09 16:06:29,490 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
-2025-01-09 16:06:29,532 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
-2025-01-09 16:06:29,823 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
-2025-01-09 16:06:29,856 : org.hibernate.Version : INFO --> HHH000412: Hibernate ORM core version 6.6.2.Final : logVersion : 
-2025-01-09 16:06:29,876 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
-2025-01-09 16:06:30,057 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
-2025-01-09 16:06:30,075 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Starting... : getConnection : 
-2025-01-09 16:06:30,251 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b2e9db2 : checkFailFast : 
-2025-01-09 16:06:30,253 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Start completed. : getConnection : 
-2025-01-09 16:06:30,295 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
+2025-01-11 15:22:08,764 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
+2025-01-11 15:22:08,786 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
+2025-01-11 15:22:08,905 : org.springframework.data.jpa.repository.query.QueryEnhancerFactory : INFO --> Hibernate is in classpath; If applicable, HQL parser will be used. : <clinit> : 
+2025-01-11 15:22:09,105 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
+2025-01-11 15:22:09,110 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
+2025-01-11 15:22:09,212 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
+2025-01-11 15:22:09,406 : org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : INFO --> LiveReload server is running on port 35729 : startServer : 
+2025-01-11 15:22:09,423 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat started on port 8080 (http) with context path '/' : start : 
+2025-01-11 15:22:09,426 : org.api.emailverfication.EmailVerficationApplication : INFO --> Started EmailVerficationApplication in 2.441 seconds (process running for 2.782) : logStarted : 
+2025-01-11 15:22:10,945 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring DispatcherServlet 'dispatcherServlet' : log : 
+2025-01-11 15:22:10,945 : org.springframework.web.servlet.DispatcherServlet : INFO --> Initializing Servlet 'dispatcherServlet' : initServletBean : 
+2025-01-11 15:22:10,946 : org.springframework.web.servlet.DispatcherServlet : INFO --> Completed initialization in 1 ms : initServletBean : 
+2025-01-11 15:22:10,967 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Sending verification email to jogayogeshedu@gmail.com : sendVerificationEmail : 
+2025-01-11 15:22:10,967 : org.api.emailverfication.services.VerificationService : INFO --> Sending verification email to jogayogeshedu@gmail.com : sendVerificationEmail : 
+2025-01-11 15:22:10,967 : org.api.emailverfication.services.VerificationService : INFO --> crated OTP: org.api.emailverfication.models.OTP@17e7b897 : sendVerificationEmail : 
+2025-01-11 15:22:10,967 : org.api.emailverfication.services.VerificationService : INFO --> OTP saved into otpRepo org.api.emailverfication.models.OTP@17e7b897 : sendVerificationEmail : 
+2025-01-11 15:22:11,014 : org.api.emailverfication.services.VerificationService : INFO --> calling SendVerificationEmail to jogayogeshedu@gmail.com : sendVerificationEmail : 
+2025-01-11 15:22:18,105 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Verification email sent : sendVerificationEmail : 
+2025-01-11 15:26:19,516 : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : INFO --> Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications) : onApplicationEvent : 
+2025-01-11 15:26:19,518 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Commencing graceful shutdown. Waiting for active requests to complete : shutDownGracefully : 
+2025-01-11 15:26:19,522 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Graceful shutdown complete : doShutdown : 
+2025-01-11 15:26:19,524 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
+2025-01-11 15:26:19,525 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown initiated... : close : 
+2025-01-11 15:26:19,528 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown completed. : close : 
+2025-01-11 15:26:19,583 : org.api.emailverfication.EmailVerficationApplication : INFO --> Starting EmailVerficationApplication using Java 23.0.1 with PID 29880 (D:\Github_projects\EmailVerfication\target\classes started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
+2025-01-11 15:26:19,583 : org.api.emailverfication.EmailVerficationApplication : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
+2025-01-11 15:26:19,678 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
+2025-01-11 15:26:19,686 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 6 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
+2025-01-11 15:26:19,727 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat initialized with port 8080 (http) : initialize : 
+2025-01-11 15:26:19,728 : org.apache.catalina.core.StandardService : INFO --> Starting service [Tomcat] : log : 
+2025-01-11 15:26:19,728 : org.apache.catalina.core.StandardEngine : INFO --> Starting Servlet engine: [Apache Tomcat/10.1.33] : log : 
+2025-01-11 15:26:19,736 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring embedded WebApplicationContext : log : 
+2025-01-11 15:26:19,736 : org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO --> Root WebApplicationContext: initialization completed in 152 ms : prepareWebApplicationContext : 
+2025-01-11 15:26:19,751 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
+2025-01-11 15:26:19,752 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
+2025-01-11 15:26:19,756 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
+2025-01-11 15:26:19,757 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-2 - Starting... : getConnection : 
+2025-01-11 15:26:19,768 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75114007 : checkFailFast : 
+2025-01-11 15:26:19,768 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-2 - Start completed. : getConnection : 
+2025-01-11 15:26:19,769 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown : initiateService : 
+2025-01-11 15:26:19,792 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
+2025-01-11 15:26:19,797 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
+2025-01-11 15:26:19,822 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
+2025-01-11 15:26:19,823 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
+2025-01-11 15:26:19,847 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
+2025-01-11 15:26:19,894 : org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : INFO --> LiveReload server is running on port 35729 : startServer : 
+2025-01-11 15:26:19,900 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat started on port 8080 (http) with context path '/' : start : 
+2025-01-11 15:26:19,901 : org.api.emailverfication.EmailVerficationApplication : INFO --> Started EmailVerficationApplication in 0.331 seconds (process running for 253.257) : logStarted : 
+2025-01-11 15:26:19,902 : org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : INFO --> Condition evaluation unchanged : onApplicationEvent : 
+2025-01-11 15:26:21,330 : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : INFO --> Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications) : onApplicationEvent : 
+2025-01-11 15:26:21,331 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Commencing graceful shutdown. Waiting for active requests to complete : shutDownGracefully : 
+2025-01-11 15:26:21,335 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Graceful shutdown complete : doShutdown : 
+2025-01-11 15:26:21,336 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
+2025-01-11 15:26:21,336 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-2 - Shutdown initiated... : close : 
+2025-01-11 15:26:21,338 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-2 - Shutdown completed. : close : 
+2025-01-11 15:26:21,384 : org.api.emailverfication.EmailVerficationApplication : INFO --> Starting EmailVerficationApplication using Java 23.0.1 with PID 29880 (D:\Github_projects\EmailVerfication\target\classes started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
+2025-01-11 15:26:21,384 : org.api.emailverfication.EmailVerficationApplication : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
+2025-01-11 15:26:21,463 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
+2025-01-11 15:26:21,469 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 5 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
+2025-01-11 15:26:21,504 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat initialized with port 8080 (http) : initialize : 
+2025-01-11 15:26:21,504 : org.apache.catalina.core.StandardService : INFO --> Starting service [Tomcat] : log : 
+2025-01-11 15:26:21,504 : org.apache.catalina.core.StandardEngine : INFO --> Starting Servlet engine: [Apache Tomcat/10.1.33] : log : 
+2025-01-11 15:26:21,511 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring embedded WebApplicationContext : log : 
+2025-01-11 15:26:21,511 : org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO --> Root WebApplicationContext: initialization completed in 125 ms : prepareWebApplicationContext : 
+2025-01-11 15:26:21,524 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
+2025-01-11 15:26:21,525 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
+2025-01-11 15:26:21,529 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
+2025-01-11 15:26:21,529 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-3 - Starting... : getConnection : 
+2025-01-11 15:26:21,537 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c05a7e7 : checkFailFast : 
+2025-01-11 15:26:21,537 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-3 - Start completed. : getConnection : 
+2025-01-11 15:26:21,537 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown : initiateService : 
+2025-01-11 15:26:21,560 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
+2025-01-11 15:26:21,563 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
+2025-01-11 15:26:21,587 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
+2025-01-11 15:26:21,588 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
+2025-01-11 15:26:21,610 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
+2025-01-11 15:26:21,655 : org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : INFO --> LiveReload server is running on port 35729 : startServer : 
+2025-01-11 15:26:21,660 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat started on port 8080 (http) with context path '/' : start : 
+2025-01-11 15:26:21,662 : org.api.emailverfication.EmailVerficationApplication : INFO --> Started EmailVerficationApplication in 0.287 seconds (process running for 255.017) : logStarted : 
+2025-01-11 15:26:21,662 : org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : INFO --> Condition evaluation unchanged : onApplicationEvent : 
+2025-01-11 15:28:03,528 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Commencing graceful shutdown. Waiting for active requests to complete : shutDownGracefully : 
+2025-01-11 15:28:03,531 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Graceful shutdown complete : doShutdown : 
+2025-01-11 15:28:03,532 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
+2025-01-11 15:28:03,533 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-3 - Shutdown initiated... : close : 
+2025-01-11 15:28:03,534 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-3 - Shutdown completed. : close : 
+2025-01-11 15:28:05,636 : org.api.emailverfication.EmailVerficationApplication : INFO --> Starting EmailVerficationApplication using Java 23.0.1 with PID 10460 (D:\Github_projects\EmailVerfication\target\classes started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
+2025-01-11 15:28:05,637 : org.api.emailverfication.EmailVerficationApplication : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
+2025-01-11 15:28:05,665 : org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : INFO --> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable : logTo : 
+2025-01-11 15:28:05,665 : org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : INFO --> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' : logTo : 
+2025-01-11 15:28:06,033 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
+2025-01-11 15:28:06,063 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 25 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
+2025-01-11 15:28:06,310 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat initialized with port 8080 (http) : initialize : 
+2025-01-11 15:28:06,317 : org.apache.catalina.core.StandardService : INFO --> Starting service [Tomcat] : log : 
+2025-01-11 15:28:06,317 : org.apache.catalina.core.StandardEngine : INFO --> Starting Servlet engine: [Apache Tomcat/10.1.33] : log : 
+2025-01-11 15:28:06,340 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring embedded WebApplicationContext : log : 
+2025-01-11 15:28:06,341 : org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO --> Root WebApplicationContext: initialization completed in 676 ms : prepareWebApplicationContext : 
+2025-01-11 15:28:06,413 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
+2025-01-11 15:28:06,439 : org.hibernate.Version : INFO --> HHH000412: Hibernate ORM core version 6.6.2.Final : logVersion : 
+2025-01-11 15:28:06,456 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
+2025-01-11 15:28:06,596 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
+2025-01-11 15:28:06,612 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Starting... : getConnection : 
+2025-01-11 15:28:06,783 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a48d349 : checkFailFast : 
+2025-01-11 15:28:06,784 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Start completed. : getConnection : 
+2025-01-11 15:28:06,821 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.40
@@ -210,28 +476,138 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown : initiateService : 
-2025-01-09 16:06:30,726 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
-2025-01-09 16:06:30,748 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
-2025-01-09 16:06:30,911 : org.springframework.data.jpa.repository.query.QueryEnhancerFactory : INFO --> Hibernate is in classpath; If applicable, HQL parser will be used. : <clinit> : 
-2025-01-09 16:06:31,176 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
-2025-01-09 16:06:31,184 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
-2025-01-09 16:06:31,382 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
-2025-01-09 16:06:31,710 : org.api.emailverfication.services.TestUserService : INFO --> Started TestUserService in 2.822 seconds (process running for 3.454) : logStarted : 
-2025-01-09 16:06:32,256 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
-2025-01-09 16:06:32,258 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown initiated... : close : 
-2025-01-09 16:06:32,267 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown completed. : close : 
-2025-01-09 16:07:01,846 : org.api.emailverfication.services.TestUserService : INFO --> Starting TestUserService using Java 23.0.1 with PID 21860 (started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
-2025-01-09 16:07:01,847 : org.api.emailverfication.services.TestUserService : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
-2025-01-09 16:07:02,295 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
-2025-01-09 16:07:02,335 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
-2025-01-09 16:07:02,620 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
-2025-01-09 16:07:02,654 : org.hibernate.Version : INFO --> HHH000412: Hibernate ORM core version 6.6.2.Final : logVersion : 
-2025-01-09 16:07:02,675 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
-2025-01-09 16:07:02,850 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
-2025-01-09 16:07:02,894 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Starting... : getConnection : 
-2025-01-09 16:07:03,080 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@702f4124 : checkFailFast : 
-2025-01-09 16:07:03,081 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Start completed. : getConnection : 
-2025-01-09 16:07:03,123 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
+2025-01-11 15:28:07,209 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
+2025-01-11 15:28:07,236 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
+2025-01-11 15:28:07,354 : org.springframework.data.jpa.repository.query.QueryEnhancerFactory : INFO --> Hibernate is in classpath; If applicable, HQL parser will be used. : <clinit> : 
+2025-01-11 15:28:07,560 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
+2025-01-11 15:28:07,566 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
+2025-01-11 15:28:07,669 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
+2025-01-11 15:28:07,875 : org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : INFO --> LiveReload server is running on port 35729 : startServer : 
+2025-01-11 15:28:07,894 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat started on port 8080 (http) with context path '/' : start : 
+2025-01-11 15:28:07,898 : org.api.emailverfication.EmailVerficationApplication : INFO --> Started EmailVerficationApplication in 2.451 seconds (process running for 2.78) : logStarted : 
+2025-01-11 15:28:13,445 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring DispatcherServlet 'dispatcherServlet' : log : 
+2025-01-11 15:28:13,445 : org.springframework.web.servlet.DispatcherServlet : INFO --> Initializing Servlet 'dispatcherServlet' : initServletBean : 
+2025-01-11 15:28:13,446 : org.springframework.web.servlet.DispatcherServlet : INFO --> Completed initialization in 1 ms : initServletBean : 
+2025-01-11 15:28:13,466 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Sending verification email to jogayogeshedu@gmail.com : sendVerificationEmail : 
+2025-01-11 15:28:13,466 : org.api.emailverfication.services.VerificationService : INFO --> Sending verification email to jogayogeshedu@gmail.com : sendVerificationEmail : 
+2025-01-11 15:28:13,466 : org.api.emailverfication.services.VerificationService : INFO --> crated OTP: org.api.emailverfication.models.OTP@1504d730 : sendVerificationEmail : 
+2025-01-11 15:28:13,466 : org.api.emailverfication.services.VerificationService : INFO --> OTP saved into otpRepo org.api.emailverfication.models.OTP@1504d730 : sendVerificationEmail : 
+2025-01-11 15:28:13,512 : org.api.emailverfication.services.VerificationService : INFO --> calling SendVerificationEmail to jogayogeshedu@gmail.com : sendVerificationEmail : 
+2025-01-11 15:28:19,684 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Verification email sent : sendVerificationEmail : 
+2025-01-11 15:30:30,312 : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : INFO --> Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) : onApplicationEvent : 
+2025-01-11 15:30:30,314 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Commencing graceful shutdown. Waiting for active requests to complete : shutDownGracefully : 
+2025-01-11 15:30:30,318 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Graceful shutdown complete : doShutdown : 
+2025-01-11 15:30:30,319 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
+2025-01-11 15:30:30,321 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown initiated... : close : 
+2025-01-11 15:30:30,324 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown completed. : close : 
+2025-01-11 15:30:30,377 : org.api.emailverfication.EmailVerficationApplication : INFO --> Starting EmailVerficationApplication using Java 23.0.1 with PID 10460 (D:\Github_projects\EmailVerfication\target\classes started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
+2025-01-11 15:30:30,378 : org.api.emailverfication.EmailVerficationApplication : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
+2025-01-11 15:30:30,462 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
+2025-01-11 15:30:30,469 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 6 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
+2025-01-11 15:30:30,508 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat initialized with port 8080 (http) : initialize : 
+2025-01-11 15:30:30,509 : org.apache.catalina.core.StandardService : INFO --> Starting service [Tomcat] : log : 
+2025-01-11 15:30:30,509 : org.apache.catalina.core.StandardEngine : INFO --> Starting Servlet engine: [Apache Tomcat/10.1.33] : log : 
+2025-01-11 15:30:30,517 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring embedded WebApplicationContext : log : 
+2025-01-11 15:30:30,518 : org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO --> Root WebApplicationContext: initialization completed in 140 ms : prepareWebApplicationContext : 
+2025-01-11 15:30:30,533 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
+2025-01-11 15:30:30,534 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
+2025-01-11 15:30:30,539 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
+2025-01-11 15:30:30,539 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-2 - Starting... : getConnection : 
+2025-01-11 15:30:30,548 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28bd3340 : checkFailFast : 
+2025-01-11 15:30:30,548 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-2 - Start completed. : getConnection : 
+2025-01-11 15:30:30,551 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown : initiateService : 
+2025-01-11 15:30:30,575 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
+2025-01-11 15:30:30,579 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
+2025-01-11 15:30:30,603 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
+2025-01-11 15:30:30,604 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
+2025-01-11 15:30:30,629 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
+2025-01-11 15:30:30,678 : org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : INFO --> LiveReload server is running on port 35729 : startServer : 
+2025-01-11 15:30:30,689 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat started on port 8080 (http) with context path '/' : start : 
+2025-01-11 15:30:30,692 : org.api.emailverfication.EmailVerficationApplication : INFO --> Started EmailVerficationApplication in 0.324 seconds (process running for 145.573) : logStarted : 
+2025-01-11 15:30:30,693 : org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : INFO --> Condition evaluation unchanged : onApplicationEvent : 
+2025-01-11 15:32:19,045 : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : INFO --> Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications) : onApplicationEvent : 
+2025-01-11 15:32:19,046 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Commencing graceful shutdown. Waiting for active requests to complete : shutDownGracefully : 
+2025-01-11 15:32:19,049 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Graceful shutdown complete : doShutdown : 
+2025-01-11 15:32:19,051 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
+2025-01-11 15:32:19,051 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-2 - Shutdown initiated... : close : 
+2025-01-11 15:32:19,053 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-2 - Shutdown completed. : close : 
+2025-01-11 15:32:19,108 : org.api.emailverfication.EmailVerficationApplication : INFO --> Starting EmailVerficationApplication using Java 23.0.1 with PID 10460 (D:\Github_projects\EmailVerfication\target\classes started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
+2025-01-11 15:32:19,108 : org.api.emailverfication.EmailVerficationApplication : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
+2025-01-11 15:32:19,187 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
+2025-01-11 15:32:19,194 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 5 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
+2025-01-11 15:32:19,232 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat initialized with port 8080 (http) : initialize : 
+2025-01-11 15:32:19,233 : org.apache.catalina.core.StandardService : INFO --> Starting service [Tomcat] : log : 
+2025-01-11 15:32:19,233 : org.apache.catalina.core.StandardEngine : INFO --> Starting Servlet engine: [Apache Tomcat/10.1.33] : log : 
+2025-01-11 15:32:19,241 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring embedded WebApplicationContext : log : 
+2025-01-11 15:32:19,241 : org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO --> Root WebApplicationContext: initialization completed in 132 ms : prepareWebApplicationContext : 
+2025-01-11 15:32:19,255 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
+2025-01-11 15:32:19,256 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
+2025-01-11 15:32:19,260 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
+2025-01-11 15:32:19,260 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-3 - Starting... : getConnection : 
+2025-01-11 15:32:19,270 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5684ca64 : checkFailFast : 
+2025-01-11 15:32:19,270 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-3 - Start completed. : getConnection : 
+2025-01-11 15:32:19,270 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown : initiateService : 
+2025-01-11 15:32:19,295 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
+2025-01-11 15:32:19,299 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
+2025-01-11 15:32:19,304 : org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : WARN --> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'emailVerificationController': Unsatisfied dependency expressed through field 'verificationService': No qualifying bean of type 'org.api.emailverfication.services.IVerificationService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)} : refresh : 
+2025-01-11 15:32:19,305 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
+2025-01-11 15:32:19,305 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-3 - Shutdown initiated... : close : 
+2025-01-11 15:32:19,305 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-3 - Shutdown completed. : close : 
+2025-01-11 15:32:19,306 : org.apache.catalina.core.StandardService : INFO --> Stopping service [Tomcat] : log : 
+2025-01-11 15:32:19,308 : org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger : INFO --> 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. : logMessage : 
+2025-01-11 15:32:19,319 : org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : ERROR --> 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field verificationService in org.api.emailverfication.controller.EmailVerificationController required a bean of type 'org.api.emailverfication.services.IVerificationService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.api.emailverfication.services.IVerificationService' in your configuration.
+ : report : 
+2025-01-11 15:37:56,335 : org.api.emailverfication.EmailVerficationApplication : INFO --> Starting EmailVerficationApplication using Java 23.0.1 with PID 17432 (D:\Github_projects\EmailVerfication\target\classes started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
+2025-01-11 15:37:56,337 : org.api.emailverfication.EmailVerficationApplication : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
+2025-01-11 15:37:56,363 : org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : INFO --> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable : logTo : 
+2025-01-11 15:37:56,363 : org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : INFO --> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' : logTo : 
+2025-01-11 15:37:56,705 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
+2025-01-11 15:37:56,731 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 22 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
+2025-01-11 15:37:56,969 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat initialized with port 8080 (http) : initialize : 
+2025-01-11 15:37:56,975 : org.apache.catalina.core.StandardService : INFO --> Starting service [Tomcat] : log : 
+2025-01-11 15:37:56,975 : org.apache.catalina.core.StandardEngine : INFO --> Starting Servlet engine: [Apache Tomcat/10.1.33] : log : 
+2025-01-11 15:37:56,996 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring embedded WebApplicationContext : log : 
+2025-01-11 15:37:56,996 : org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO --> Root WebApplicationContext: initialization completed in 633 ms : prepareWebApplicationContext : 
+2025-01-11 15:37:57,062 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
+2025-01-11 15:37:57,086 : org.hibernate.Version : INFO --> HHH000412: Hibernate ORM core version 6.6.2.Final : logVersion : 
+2025-01-11 15:37:57,100 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
+2025-01-11 15:37:57,240 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
+2025-01-11 15:37:57,256 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Starting... : getConnection : 
+2025-01-11 15:37:57,434 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@350af54d : checkFailFast : 
+2025-01-11 15:37:57,435 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Start completed. : getConnection : 
+2025-01-11 15:37:57,475 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.40
@@ -239,28 +615,138 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown : initiateService : 
-2025-01-09 16:07:03,581 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
-2025-01-09 16:07:03,603 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
-2025-01-09 16:07:03,770 : org.springframework.data.jpa.repository.query.QueryEnhancerFactory : INFO --> Hibernate is in classpath; If applicable, HQL parser will be used. : <clinit> : 
-2025-01-09 16:07:04,046 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
-2025-01-09 16:07:04,058 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
-2025-01-09 16:07:04,288 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
-2025-01-09 16:07:04,615 : org.api.emailverfication.services.TestUserService : INFO --> Started TestUserService in 2.935 seconds (process running for 3.555) : logStarted : 
-2025-01-09 16:07:05,147 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
-2025-01-09 16:07:05,149 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown initiated... : close : 
-2025-01-09 16:07:05,157 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown completed. : close : 
-2025-01-09 16:09:34,047 : org.api.emailverfication.EmailVerficationApplicationTests : INFO --> Starting EmailVerficationApplicationTests using Java 23.0.1 with PID 17976 (started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
-2025-01-09 16:09:34,049 : org.api.emailverfication.EmailVerficationApplicationTests : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
-2025-01-09 16:09:34,798 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
-2025-01-09 16:09:34,852 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
-2025-01-09 16:09:35,265 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
-2025-01-09 16:09:35,325 : org.hibernate.Version : INFO --> HHH000412: Hibernate ORM core version 6.6.2.Final : logVersion : 
-2025-01-09 16:09:35,370 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
-2025-01-09 16:09:35,706 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
-2025-01-09 16:09:35,748 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Starting... : getConnection : 
-2025-01-09 16:09:36,033 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b6047a6 : checkFailFast : 
-2025-01-09 16:09:36,035 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Start completed. : getConnection : 
-2025-01-09 16:09:36,118 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
+2025-01-11 15:37:57,858 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
+2025-01-11 15:37:57,886 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
+2025-01-11 15:37:58,008 : org.springframework.data.jpa.repository.query.QueryEnhancerFactory : INFO --> Hibernate is in classpath; If applicable, HQL parser will be used. : <clinit> : 
+2025-01-11 15:37:58,212 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
+2025-01-11 15:37:58,217 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
+2025-01-11 15:37:58,317 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
+2025-01-11 15:37:58,515 : org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : INFO --> LiveReload server is running on port 35729 : startServer : 
+2025-01-11 15:37:58,533 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat started on port 8080 (http) with context path '/' : start : 
+2025-01-11 15:37:58,537 : org.api.emailverfication.EmailVerficationApplication : INFO --> Started EmailVerficationApplication in 2.388 seconds (process running for 2.711) : logStarted : 
+2025-01-11 15:44:05,102 : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : INFO --> Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications) : onApplicationEvent : 
+2025-01-11 15:44:05,104 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Commencing graceful shutdown. Waiting for active requests to complete : shutDownGracefully : 
+2025-01-11 15:44:05,107 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Graceful shutdown complete : doShutdown : 
+2025-01-11 15:44:05,110 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
+2025-01-11 15:44:05,111 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown initiated... : close : 
+2025-01-11 15:44:05,114 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown completed. : close : 
+2025-01-11 15:44:05,164 : org.api.emailverfication.EmailVerficationApplication : INFO --> Starting EmailVerficationApplication using Java 23.0.1 with PID 17432 (D:\Github_projects\EmailVerfication\target\classes started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
+2025-01-11 15:44:05,166 : org.api.emailverfication.EmailVerficationApplication : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
+2025-01-11 15:44:05,268 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
+2025-01-11 15:44:05,277 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
+2025-01-11 15:44:05,330 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat initialized with port 8080 (http) : initialize : 
+2025-01-11 15:44:05,331 : org.apache.catalina.core.StandardService : INFO --> Starting service [Tomcat] : log : 
+2025-01-11 15:44:05,331 : org.apache.catalina.core.StandardEngine : INFO --> Starting Servlet engine: [Apache Tomcat/10.1.33] : log : 
+2025-01-11 15:44:05,340 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring embedded WebApplicationContext : log : 
+2025-01-11 15:44:05,340 : org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO --> Root WebApplicationContext: initialization completed in 173 ms : prepareWebApplicationContext : 
+2025-01-11 15:44:05,358 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
+2025-01-11 15:44:05,359 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
+2025-01-11 15:44:05,364 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
+2025-01-11 15:44:05,364 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-2 - Starting... : getConnection : 
+2025-01-11 15:44:05,374 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@662490e7 : checkFailFast : 
+2025-01-11 15:44:05,374 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-2 - Start completed. : getConnection : 
+2025-01-11 15:44:05,376 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown : initiateService : 
+2025-01-11 15:44:05,401 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
+2025-01-11 15:44:05,406 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
+2025-01-11 15:44:05,411 : org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : WARN --> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'emailVerificationController': Unsatisfied dependency expressed through field 'verificationService': Error creating bean with name 'verificationService' defined in file [D:\Github_projects\EmailVerfication\target\classes\org\api\emailverfication\services\VerificationService.class]: Post-processing of merged bean definition failed : refresh : 
+2025-01-11 15:44:05,412 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
+2025-01-11 15:44:05,412 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-2 - Shutdown initiated... : close : 
+2025-01-11 15:44:05,412 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-2 - Shutdown completed. : close : 
+2025-01-11 15:44:05,413 : org.apache.catalina.core.StandardService : INFO --> Stopping service [Tomcat] : log : 
+2025-01-11 15:44:05,415 : org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger : INFO --> 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. : logMessage : 
+2025-01-11 15:44:05,424 : org.springframework.boot.SpringApplication : ERROR --> Application run failed : reportFailure : 
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'emailVerificationController': Unsatisfied dependency expressed through field 'verificationService': Error creating bean with name 'verificationService' defined in file [D:\Github_projects\EmailVerfication\target\classes\org\api\emailverfication\services\VerificationService.class]: Post-processing of merged bean definition failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1435) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:288) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1122) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1093) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1030) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.0.jar:6.2.0]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.0.jar:6.2.0]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.0.jar:3.4.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.0.jar:3.4.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.0.jar:3.4.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.0.jar:3.4.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.0.jar:3.4.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.0.jar:3.4.0]
+	at org.api.emailverfication.EmailVerficationApplication.main(EmailVerficationApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.0.jar:3.4.0]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'verificationService' defined in file [D:\Github_projects\EmailVerfication\target\classes\org\api\emailverfication\services\VerificationService.class]: Post-processing of merged bean definition failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:578) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:288) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1568) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1514) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785) ~[spring-beans-6.2.0.jar:6.2.0]
+	... 25 common frames omitted
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.api.emailverfication.services.VerificationService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@409ca318]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:757) ~[spring-core-6.2.0.jar:6.2.0]
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:689) ~[spring-core-6.2.0.jar:6.2.0]
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.buildPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:437) ~[spring-orm-6.2.0.jar:6.2.0]
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:418) ~[spring-orm-6.2.0.jar:6.2.0]
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findInjectionMetadata(PersistenceAnnotationBeanPostProcessor.java:377) ~[spring-orm-6.2.0.jar:6.2.0]
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(PersistenceAnnotationBeanPostProcessor.java:353) ~[spring-orm-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1099) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575) ~[spring-beans-6.2.0.jar:6.2.0]
+	... 33 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/api/emailverfication/services/EmailService
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3545) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2601) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:752) ~[spring-core-6.2.0.jar:6.2.0]
+	... 40 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.api.emailverfication.services.EmailService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:578) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:557) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.4.0.jar:3.4.0]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528) ~[na:na]
+	... 44 common frames omitted
+2025-01-11 15:46:35,928 : org.api.emailverfication.EmailVerficationApplication : INFO --> Starting EmailVerficationApplication using Java 23.0.1 with PID 11092 (D:\Github_projects\EmailVerfication\target\classes started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
+2025-01-11 15:46:35,930 : org.api.emailverfication.EmailVerficationApplication : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
+2025-01-11 15:46:35,958 : org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : INFO --> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable : logTo : 
+2025-01-11 15:46:35,958 : org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : INFO --> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' : logTo : 
+2025-01-11 15:46:36,327 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
+2025-01-11 15:46:36,362 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 30 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
+2025-01-11 15:46:36,635 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat initialized with port 8080 (http) : initialize : 
+2025-01-11 15:46:36,644 : org.apache.catalina.core.StandardService : INFO --> Starting service [Tomcat] : log : 
+2025-01-11 15:46:36,644 : org.apache.catalina.core.StandardEngine : INFO --> Starting Servlet engine: [Apache Tomcat/10.1.33] : log : 
+2025-01-11 15:46:36,668 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring embedded WebApplicationContext : log : 
+2025-01-11 15:46:36,669 : org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO --> Root WebApplicationContext: initialization completed in 710 ms : prepareWebApplicationContext : 
+2025-01-11 15:46:36,746 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
+2025-01-11 15:46:36,773 : org.hibernate.Version : INFO --> HHH000412: Hibernate ORM core version 6.6.2.Final : logVersion : 
+2025-01-11 15:46:36,789 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
+2025-01-11 15:46:36,928 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
+2025-01-11 15:46:36,943 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Starting... : getConnection : 
+2025-01-11 15:46:37,118 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7cee60c8 : checkFailFast : 
+2025-01-11 15:46:37,119 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Start completed. : getConnection : 
+2025-01-11 15:46:37,161 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.40
@@ -268,22 +754,153 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown : initiateService : 
-2025-01-09 16:09:36,938 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
-2025-01-09 16:09:36,982 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
-2025-01-09 16:09:37,195 : org.springframework.data.jpa.repository.query.QueryEnhancerFactory : INFO --> Hibernate is in classpath; If applicable, HQL parser will be used. : <clinit> : 
-2025-01-09 16:09:37,687 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
-2025-01-09 16:09:37,702 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
-2025-01-09 16:09:38,002 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
-2025-01-09 16:09:38,412 : org.api.emailverfication.EmailVerficationApplicationTests : INFO --> Started EmailVerficationApplicationTests in 4.711 seconds (process running for 6.0) : logStarted : 
-2025-01-09 16:09:38,727 : org.springframework.test.context.support.AnnotationConfigContextLoaderUtils : INFO --> Could not detect default configuration classes for test class [org.api.emailverfication.services.TestUserService]: TestUserService does not declare any static, non-private, non-final, nested classes annotated with @Configuration. : detectDefaultConfigurationClasses : 
-2025-01-09 16:09:38,733 : org.springframework.boot.test.context.SpringBootTestContextBootstrapper : INFO --> Found @SpringBootConfiguration org.api.emailverfication.EmailVerficationApplication for test class org.api.emailverfication.services.TestUserService : getOrFindConfigurationClasses : 
-2025-01-09 16:09:39,107 : org.springframework.test.context.support.AnnotationConfigContextLoaderUtils : INFO --> Could not detect default configuration classes for test class [org.api.emailverfication.controller.TestEmailVerificationController]: TestEmailVerificationController does not declare any static, non-private, non-final, nested classes annotated with @Configuration. : detectDefaultConfigurationClasses : 
-2025-01-09 16:09:39,119 : org.springframework.boot.test.context.SpringBootTestContextBootstrapper : INFO --> Found @SpringBootConfiguration org.api.emailverfication.EmailVerficationApplication for test class org.api.emailverfication.controller.TestEmailVerificationController : getOrFindConfigurationClasses : 
-2025-01-09 16:09:39,183 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Sending verification email to test@example.com : sendVerificationEmail : 
-2025-01-09 16:09:39,183 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Verification email sent : sendVerificationEmail : 
-2025-01-09 16:09:39,196 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> Verification email sent : testSendVerificationEmail : 
-2025-01-09 16:09:39,197 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> Email verified successfully : testSendVerificationEmail : 
-2025-01-09 16:09:39,197 : org.api.emailverfication.controller.TestEmailVerificationController : INFO --> Test successfully verified : testSendVerificationEmail : 
-2025-01-09 16:09:39,207 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
-2025-01-09 16:09:39,210 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown initiated... : close : 
-2025-01-09 16:09:39,219 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown completed. : close : 
+2025-01-11 15:46:37,545 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
+2025-01-11 15:46:37,568 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
+2025-01-11 15:46:37,688 : org.springframework.data.jpa.repository.query.QueryEnhancerFactory : INFO --> Hibernate is in classpath; If applicable, HQL parser will be used. : <clinit> : 
+2025-01-11 15:46:37,896 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
+2025-01-11 15:46:37,902 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
+2025-01-11 15:46:38,005 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
+2025-01-11 15:46:38,205 : org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : INFO --> LiveReload server is running on port 35729 : startServer : 
+2025-01-11 15:46:38,222 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat started on port 8080 (http) with context path '/' : start : 
+2025-01-11 15:46:38,226 : org.api.emailverfication.EmailVerficationApplication : INFO --> Started EmailVerficationApplication in 2.492 seconds (process running for 2.823) : logStarted : 
+2025-01-11 15:46:41,341 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring DispatcherServlet 'dispatcherServlet' : log : 
+2025-01-11 15:46:41,341 : org.springframework.web.servlet.DispatcherServlet : INFO --> Initializing Servlet 'dispatcherServlet' : initServletBean : 
+2025-01-11 15:46:41,342 : org.springframework.web.servlet.DispatcherServlet : INFO --> Completed initialization in 1 ms : initServletBean : 
+2025-01-11 15:46:41,362 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Sending verification email to jogayogeshedu@gmail.com : sendVerificationEmail : 
+2025-01-11 15:46:41,363 : org.api.emailverfication.services.VerificationService : INFO --> Sending verification email to jogayogeshedu@gmail.com : sendVerificationEmail : 
+2025-01-11 15:46:41,363 : org.api.emailverfication.services.VerificationService : INFO --> crated OTP: org.api.emailverfication.models.OTP@795b19df : sendVerificationEmail : 
+2025-01-11 15:46:41,363 : org.api.emailverfication.services.VerificationService : INFO --> OTP saved into otpRepo org.api.emailverfication.models.OTP@795b19df : sendVerificationEmail : 
+2025-01-11 15:46:41,413 : org.api.emailverfication.services.VerificationService : INFO --> calling SendVerificationEmail to jogayogeshedu@gmail.com : sendVerificationEmail : 
+2025-01-11 15:46:48,055 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Verification email sent : sendVerificationEmail : 
+2025-01-11 15:47:44,201 : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : INFO --> Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) : onApplicationEvent : 
+2025-01-11 15:47:44,203 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Commencing graceful shutdown. Waiting for active requests to complete : shutDownGracefully : 
+2025-01-11 15:47:44,207 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Graceful shutdown complete : doShutdown : 
+2025-01-11 15:47:44,209 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
+2025-01-11 15:47:44,210 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown initiated... : close : 
+2025-01-11 15:47:44,213 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown completed. : close : 
+2025-01-11 15:47:44,253 : org.api.emailverfication.EmailVerficationApplication : INFO --> Starting EmailVerficationApplication using Java 23.0.1 with PID 11092 (D:\Github_projects\EmailVerfication\target\classes started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
+2025-01-11 15:47:44,254 : org.api.emailverfication.EmailVerficationApplication : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
+2025-01-11 15:47:44,351 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
+2025-01-11 15:47:44,359 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 7 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
+2025-01-11 15:47:44,402 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat initialized with port 8080 (http) : initialize : 
+2025-01-11 15:47:44,402 : org.apache.catalina.core.StandardService : INFO --> Starting service [Tomcat] : log : 
+2025-01-11 15:47:44,402 : org.apache.catalina.core.StandardEngine : INFO --> Starting Servlet engine: [Apache Tomcat/10.1.33] : log : 
+2025-01-11 15:47:44,411 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring embedded WebApplicationContext : log : 
+2025-01-11 15:47:44,411 : org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO --> Root WebApplicationContext: initialization completed in 157 ms : prepareWebApplicationContext : 
+2025-01-11 15:47:44,427 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
+2025-01-11 15:47:44,428 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
+2025-01-11 15:47:44,433 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
+2025-01-11 15:47:44,433 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-2 - Starting... : getConnection : 
+2025-01-11 15:47:44,442 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@509c102d : checkFailFast : 
+2025-01-11 15:47:44,442 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-2 - Start completed. : getConnection : 
+2025-01-11 15:47:44,444 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown : initiateService : 
+2025-01-11 15:47:44,469 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
+2025-01-11 15:47:44,473 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
+2025-01-11 15:47:44,499 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
+2025-01-11 15:47:44,500 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
+2025-01-11 15:47:44,526 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
+2025-01-11 15:47:44,572 : org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : INFO --> LiveReload server is running on port 35729 : startServer : 
+2025-01-11 15:47:44,577 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat started on port 8080 (http) with context path '/' : start : 
+2025-01-11 15:47:44,579 : org.api.emailverfication.EmailVerficationApplication : INFO --> Started EmailVerficationApplication in 0.336 seconds (process running for 69.176) : logStarted : 
+2025-01-11 15:47:44,579 : org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : INFO --> Condition evaluation unchanged : onApplicationEvent : 
+2025-01-11 15:49:50,055 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Commencing graceful shutdown. Waiting for active requests to complete : shutDownGracefully : 
+2025-01-11 15:49:50,058 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Graceful shutdown complete : doShutdown : 
+2025-01-11 15:49:50,060 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
+2025-01-11 15:49:50,060 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-2 - Shutdown initiated... : close : 
+2025-01-11 15:49:50,062 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-2 - Shutdown completed. : close : 
+2025-01-11 15:49:52,119 : org.api.emailverfication.EmailVerficationApplication : INFO --> Starting EmailVerficationApplication using Java 23.0.1 with PID 28012 (D:\Github_projects\EmailVerfication\target\classes started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
+2025-01-11 15:49:52,120 : org.api.emailverfication.EmailVerficationApplication : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
+2025-01-11 15:49:52,149 : org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : INFO --> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable : logTo : 
+2025-01-11 15:49:52,154 : org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : INFO --> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' : logTo : 
+2025-01-11 15:49:52,519 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
+2025-01-11 15:49:52,553 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 28 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
+2025-01-11 15:49:52,809 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat initialized with port 8080 (http) : initialize : 
+2025-01-11 15:49:52,817 : org.apache.catalina.core.StandardService : INFO --> Starting service [Tomcat] : log : 
+2025-01-11 15:49:52,818 : org.apache.catalina.core.StandardEngine : INFO --> Starting Servlet engine: [Apache Tomcat/10.1.33] : log : 
+2025-01-11 15:49:52,846 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring embedded WebApplicationContext : log : 
+2025-01-11 15:49:52,846 : org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO --> Root WebApplicationContext: initialization completed in 691 ms : prepareWebApplicationContext : 
+2025-01-11 15:49:52,916 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
+2025-01-11 15:49:52,942 : org.hibernate.Version : INFO --> HHH000412: Hibernate ORM core version 6.6.2.Final : logVersion : 
+2025-01-11 15:49:52,957 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
+2025-01-11 15:49:53,093 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
+2025-01-11 15:49:53,111 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Starting... : getConnection : 
+2025-01-11 15:49:53,283 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38c312d1 : checkFailFast : 
+2025-01-11 15:49:53,284 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Start completed. : getConnection : 
+2025-01-11 15:49:53,325 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown : initiateService : 
+2025-01-11 15:49:53,722 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
+2025-01-11 15:49:53,745 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
+2025-01-11 15:49:53,864 : org.springframework.data.jpa.repository.query.QueryEnhancerFactory : INFO --> Hibernate is in classpath; If applicable, HQL parser will be used. : <clinit> : 
+2025-01-11 15:49:54,070 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
+2025-01-11 15:49:54,076 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
+2025-01-11 15:49:54,178 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
+2025-01-11 15:49:54,381 : org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : INFO --> LiveReload server is running on port 35729 : startServer : 
+2025-01-11 15:49:54,401 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat started on port 8080 (http) with context path '/' : start : 
+2025-01-11 15:49:54,405 : org.api.emailverfication.EmailVerficationApplication : INFO --> Started EmailVerficationApplication in 2.481 seconds (process running for 2.845) : logStarted : 
+2025-01-11 15:50:06,344 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring DispatcherServlet 'dispatcherServlet' : log : 
+2025-01-11 15:50:06,344 : org.springframework.web.servlet.DispatcherServlet : INFO --> Initializing Servlet 'dispatcherServlet' : initServletBean : 
+2025-01-11 15:50:06,345 : org.springframework.web.servlet.DispatcherServlet : INFO --> Completed initialization in 1 ms : initServletBean : 
+2025-01-11 15:50:06,364 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Sending verification email to jogayogeshedu@gmail.com : sendVerificationEmail : 
+2025-01-11 15:50:06,365 : org.api.emailverfication.services.VerificationService : INFO --> Sending verification email to jogayogeshedu@gmail.com : sendVerificationEmail : 
+2025-01-11 15:50:06,365 : org.api.emailverfication.services.VerificationService : INFO --> crated OTP: org.api.emailverfication.models.OTP@4b3a239b : sendVerificationEmail : 
+2025-01-11 15:50:06,365 : org.api.emailverfication.services.VerificationService : INFO --> OTP saved into otpRepo org.api.emailverfication.models.OTP@4b3a239b : sendVerificationEmail : 
+2025-01-11 15:50:06,413 : org.api.emailverfication.services.VerificationService : INFO --> calling SendVerificationEmail to jogayogeshedu@gmail.com : sendVerificationEmail : 
+2025-01-11 15:50:12,286 : org.api.emailverfication.controller.EmailVerificationController : INFO --> Verification email sent : sendVerificationEmail : 
+2025-01-11 15:55:28,965 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Commencing graceful shutdown. Waiting for active requests to complete : shutDownGracefully : 
+2025-01-11 15:55:28,969 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Graceful shutdown complete : doShutdown : 
+2025-01-11 15:55:28,972 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
+2025-01-11 15:55:28,974 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown initiated... : close : 
+2025-01-11 15:55:28,976 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown completed. : close : 
+2025-01-11 15:55:30,273 : org.api.emailverfication.EmailVerficationApplication : INFO --> Starting EmailVerficationApplication using Java 23.0.1 with PID 20860 (D:\Github_projects\EmailVerfication\target\classes started by yogeshjoga in D:\Github_projects\EmailVerfication) : logStarting : 
+2025-01-11 15:55:30,274 : org.api.emailverfication.EmailVerficationApplication : INFO --> No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo : 
+2025-01-11 15:55:30,303 : org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : INFO --> Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable : logTo : 
+2025-01-11 15:55:30,303 : org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : INFO --> For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' : logTo : 
+2025-01-11 15:55:30,676 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. : registerRepositoriesIn : 
+2025-01-11 15:55:30,710 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 28 ms. Found 2 JPA repository interfaces. : registerRepositoriesIn : 
+2025-01-11 15:55:30,975 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat initialized with port 8080 (http) : initialize : 
+2025-01-11 15:55:30,983 : org.apache.catalina.core.StandardService : INFO --> Starting service [Tomcat] : log : 
+2025-01-11 15:55:30,983 : org.apache.catalina.core.StandardEngine : INFO --> Starting Servlet engine: [Apache Tomcat/10.1.33] : log : 
+2025-01-11 15:55:31,006 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring embedded WebApplicationContext : log : 
+2025-01-11 15:55:31,006 : org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO --> Root WebApplicationContext: initialization completed in 703 ms : prepareWebApplicationContext : 
+2025-01-11 15:55:31,074 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] : logPersistenceUnitInformation : 
+2025-01-11 15:55:31,098 : org.hibernate.Version : INFO --> HHH000412: Hibernate ORM core version 6.6.2.Final : logVersion : 
+2025-01-11 15:55:31,113 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled : initiateService : 
+2025-01-11 15:55:31,255 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer : addTransformer : 
+2025-01-11 15:55:31,270 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Starting... : getConnection : 
+2025-01-11 15:55:31,446 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2260e7ba : checkFailFast : 
+2025-01-11 15:55:31,447 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Start completed. : getConnection : 
+2025-01-11 15:55:31,486 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown : initiateService : 
+2025-01-11 15:55:31,883 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) : initiateService : 
+2025-01-11 15:55:31,905 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' : buildNativeEntityManagerFactory : 
+2025-01-11 15:55:32,028 : org.springframework.data.jpa.repository.query.QueryEnhancerFactory : INFO --> Hibernate is in classpath; If applicable, HQL parser will be used. : <clinit> : 
+2025-01-11 15:55:32,234 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating JavaMailSender --------------------------------- : getJavaMailSender : 
+2025-01-11 15:55:32,240 : org.api.emailverfication.config.MailConfig : INFO --> ------------------------ Creating mail sender properties  --------------------------------- : getJavaMailSender : 
+2025-01-11 15:55:32,345 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning : openEntityManagerInViewInterceptor : 
+2025-01-11 15:55:32,543 : org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : INFO --> LiveReload server is running on port 35729 : startServer : 
+2025-01-11 15:55:32,561 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat started on port 8080 (http) with context path '/' : start : 
+2025-01-11 15:55:32,564 : org.api.emailverfication.EmailVerficationApplication : INFO --> Started EmailVerficationApplication in 2.5 seconds (process running for 2.845) : logStarted : 
+2025-01-11 16:00:48,908 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Commencing graceful shutdown. Waiting for active requests to complete : shutDownGracefully : 
+2025-01-11 16:00:48,913 : org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO --> Graceful shutdown complete : doShutdown : 
+2025-01-11 16:00:48,915 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Closing JPA EntityManagerFactory for persistence unit 'default' : destroy : 
+2025-01-11 16:00:48,917 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown initiated... : close : 
+2025-01-11 16:00:48,919 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Shutdown completed. : close : 

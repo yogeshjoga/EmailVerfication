@@ -12,6 +12,11 @@
 10. SMTP email servers (google)
 
 
+# Verification Email prev
+
+
+![Email Prev IMAGE](src/main/resources/images/verificationEmailPrev.png)
+
 # Add Dummy Data for Testing Rest Api Endpoint's
 
 Go to the resources folder -> Querys -> Dummy_Data_Creation.sql file -> run into your MySql ( email ) Database thats it.

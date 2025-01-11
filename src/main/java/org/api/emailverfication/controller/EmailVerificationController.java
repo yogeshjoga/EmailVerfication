@@ -4,7 +4,7 @@ import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletResponse;
 import org.api.emailverfication.constents.VERIFIED;
 import org.api.emailverfication.exceptions.WrongOTPException;
-import org.api.emailverfication.services.IVerificationService;
+import org.api.emailverfication.services.verificationservice.IVerificationService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
